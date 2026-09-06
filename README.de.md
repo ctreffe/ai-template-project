@@ -255,10 +255,10 @@ Das generische Template verwendet standardmäßig PDRs und erklärt das Modell i
 
 - **`AGENTS.md`** ist der kompakte, automatisch residente Sicherheitskern und Kontext-Router für KI-Agenten.
 - **`COLLABORATION.md`** definiert den anbieterneutralen Kollaborationsvertrag, Autoritätsgrenzen, das Evidenzmodell und Erfolgskriterien. Die Datei wird nur geladen, wenn ihr breiterer Kontext relevant ist.
-- **`TROUBLESHOOTING.md`** enthält portable, verifizierte Muster für
-  Umgebungsfehler. Die ignorierte `TROUBLESHOOTING.local.md` enthält
-  hostspezifische Fakten; beide werden erst nach dem residenten
-  Troubleshooting-Trigger geladen.
+- **`TROUBLESHOOTING.md`** enthält portable Probleme und verifizierte Lösungen
+  aus der fokussierten Problemlösung. Die ignorierte
+  `TROUBLESHOOTING.local.md` enthält hostspezifische Fakten; beim schnellen
+  Ausstieg aus dem Troubleshooting wird keine der Dateien geladen.
 - **`PHILOSOPHY.md`** hält die Werte hinter der Projektmethode fest, darunter Intention vor Struktur, Nachvollziehbarkeit, leichtgewichtiger Prozess und Integrität vor Außendarstellung.
 
 ### Setup, Fortsetzung und Review

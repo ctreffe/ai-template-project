@@ -1,21 +1,23 @@
 # Task Handoff
 
-- Status: completed at the AGIT Project Template 0.5.0 milestone
-- Outcome: The reviewed collaboration lifecycle, progressive initialization,
-  opt-in grilling, conditional troubleshooting and copy-ready authorization
-  contract are consolidated as the 0.5.0 generic template baseline.
-- Decisions: The template remains generic, keeps six lean initialization
-  questions and inherits no access, Git or publication authority from optional
-  workflows.
-- Changed files: Release closure updates only — `VERSION`, `CHANGELOG.md`
-  and this handoff.
-- Checks: The complete Governance-owned Templateverse gate passed, including
-  links, README policy, storage boundaries, version metadata and Git checks.
-- Deferred evidence: No tag-dependent strict release check or live-origin check
-  was run; both require their separately authorized boundary. No domain render
-  or software suite applies to this generic template closure.
-- Preserved state: Input, materials, temporary areas, derived projects, Git
-  history, remote configuration and publication state remain unchanged.
-- Open points: None for the 0.5.0 milestone.
-- Next step: Consider tag creation or release publication only as separate
-  maintainer-authorized actions.
+- Status: completed; the focused environment-troubleshooting rollout is
+  uncommitted and unstaged.
+- Outcome: Automatic activation offers an undocumented quick exit or focused
+  problem resolution; explicit invocation enters resolution directly for a
+  concrete problem. Repair is accepted only at the original checkpoint or a
+  pre-agreed standalone test.
+- Decisions: `optimize-codex` is removed without replacement. Demand-driven
+  setup remains, and troubleshooting preserves generic input, material, Git,
+  external-operation and publication boundaries while proactively requesting
+  useful elevated authority for maintainer judgment.
+- Changed files: skill topology, resident and collaboration contracts, setup,
+  troubleshooting schema, bilingual READMEs, changelog and this handoff.
+- Checks: Governance's family skill validator and Skill Creator validation
+  passed for this variant.
+- Deferred evidence: No full family gate, milestone, release, render or broad
+  suite ran.
+- Preserved state: Inputs, materials, temporary areas, derived projects, Git
+  history, remotes and publication remain unchanged.
+- Open points: Existing derived projects adopt only through deliberate sync.
+- Next step: Review and, only with separate authority, commit the coordinated
+  change.

@@ -70,11 +70,15 @@ project decision.
 
 Retry a tool or environment failure once only when plausibly transient. On
 recurrence or a setup, policy or permission failure, pause the task and use the
-implicitly discoverable `troubleshoot-environment` workflow. Load portable and
-host-local known issues only after activation, require a verified signature and
-applicability match before reuse, and resume only after the original operation
-succeeds. Troubleshooting grants no input, material, privilege, installation,
-Git, external-operation or publication authority.
+implicitly discoverable `troubleshoot-environment` workflow. Describe only the
+observed problem before the maintainer chooses an undocumented quick exit or
+focused problem resolution. Explicit invocation for a concrete problem enters
+resolution directly. Only that route loads or updates incident records, and it
+verifies repair at the exact original checkpoint or a pre-agreed standalone
+acceptance test. Request elevated authority proactively when it enables an
+effective durable repair, state its scope and consequence, and leave the
+security judgment to the maintainer. Troubleshooting grants no input, material,
+privilege, installation, Git, external-operation or publication authority.
 
 ## Validation Stages
 
@@ -92,12 +96,3 @@ A successful project has clear intent, reproducible evidence, useful current
 context, documented durable decisions, reviewable outputs, transparent
 limitations, proportionate validation and a clear next step or completion
 state—without depending on private conversation history.
-
-## Explicit Codex Optimization
-
-Only explicit maintainer invocation starts `$optimize-codex`. Its bounded
-scope covers Codex settings, needed writable paths and required local runtime
-setup. Invocation preserves all action-specific authority boundaries.
-The template and new derived projects use a domain-adapted local variant.
-Cross-repository and shared user-wide configuration work belongs to Governance.
-Existing derived projects adopt it only through deliberate template sync.

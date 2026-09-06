@@ -245,9 +245,9 @@ The generic template defaults to PDRs and explains the model in [DECISIONS.md](D
 
 - **`AGENTS.md`** is the concise, automatically resident safety kernel and context router for AI agents.
 - **`COLLABORATION.md`** defines the provider-neutral Maintainer-Agent collaboration contract, authority boundaries, evidence model and success criteria. It is loaded only when its broader context is relevant.
-- **`TROUBLESHOOTING.md`** stores portable verified environment-failure
-  patterns. Ignored `TROUBLESHOOTING.local.md` stores host-specific facts; both
-  load only after the resident troubleshooting trigger fires.
+- **`TROUBLESHOOTING.md`** stores portable focused-resolution problems and
+  verified repairs. Ignored `TROUBLESHOOTING.local.md` stores host-specific
+  facts; neither is loaded when troubleshooting takes the quick exit.
 - **`PHILOSOPHY.md`** records the values behind the project method, including intent before structure, traceability, lightweight process and integrity over appearance.
 
 ### Setup, Continuation and Review
