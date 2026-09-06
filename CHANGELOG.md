@@ -6,6 +6,11 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Harmonize KI-0004 with the Templateverse family contract. Bounded work now
+  prereads exact patch targets, uses stable semantic anchors, separates
+  uncertain hunks and retains a portable recovery record without broadening
+  input, external-write, publication or Git authority.
+
 - Make completed task handoffs commit-stable: record durable task facts
   without claiming that the enclosing changes remain uncommitted or making
   versioning the next task, and reconcile continuation against live Git state.
