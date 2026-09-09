@@ -19,6 +19,13 @@ Resident contract.
   do not probe the expected `workspace-write` `.git/index.lock` denial. Keep
   read-only Git inspection sandboxed. Escalation grants no additional Git or
   standing authority.
+- Use normal sandboxed execution when it is equally effective. If an already
+  authorized in-scope action requires crossing a platform boundary, promptly
+  request the narrowest sufficient escalation through the platform mechanism;
+  do not omit or replace the action merely to avoid approval. Ask separately in
+  prose only when action authority is missing or unclear. Escalation grants no
+  broader repository, action, path, input, external-write, Git, publication or
+  standing authority.
 - Ask before installation, privilege, external operations, outside writes or
   transmission; access, versioning and publication are separate.
 - Retry once only if plausibly transient. On recurrence or setup/policy error,
@@ -48,6 +55,9 @@ Resident contract.
   consequential work.
 
 ## Validation
+
+Codex skill edits use `scripts/Test-CodexSkill.ps1`; on first use follow
+`VALIDATION.md` to prepare the pinned local dependency without global installs.
 
 Scale evidence by stage: an acceptable bounded change needs the smallest useful
 review, an ordinary commit needs targeted evidence for a good reviewable state,
