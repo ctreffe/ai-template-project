@@ -14,7 +14,9 @@ Establish only the context needed for the requested objective.
    changes the recorded outcome, substantive open points or continuation.
    Treat an otherwise stale or unrelated handoff as non-authoritative.
 2. Inspect branch, working tree and staged state without changing them.
-3. State the outcome, repository scope and important non-goals.
+3. Establish the intended outcome, repository scope and a clear completion
+   criterion from the request. Ask only for missing information that materially
+   affects the work; continue independent authorized work while awaiting it.
 4. Read the target and only directly applicable authority, domain, decision and
    validation material. Prefer matched sections, changed hunks and bounded
    output before full files or diffs.
@@ -22,9 +24,10 @@ Establish only the context needed for the requested objective.
    target span. Build small hunks around stable semantic anchors and separate
    independent files or uncertain hunks. When assembling a patch dynamically,
    preserve an explicit operation marker on every hunk line.
-5. Perform the bounded work. Obtain only the smallest evidence needed to show
-   that the affected behavior or text is acceptable and aligned with project
-   intent; an automated check is optional. Do not default to whitespace checks,
+5. Continue the authorized bounded work until its completion criterion is met
+   or a real blocker requires input. Obtain only the smallest evidence needed
+   to show that the affected behavior or text is acceptable and aligned with
+   project intent; an automated check is optional. Do not default to whitespace checks,
    broad renders or complete suites. Exercise a changed validator narrowly and
    escalate only for a stated material risk.
    After a context-verification rejection, inspect whether any partial edit
