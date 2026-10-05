@@ -7,6 +7,12 @@ description: Start a new bounded repository task with lean context reconstructio
 
 Establish only the context needed for the requested objective.
 
+A clarification, status request or continuation of the same objective is not
+new task entry. Reuse already established context and evidence while their
+inputs remain unchanged. Refresh changed or uncertain authority, scope and
+repository state; freshly read exact patch spans as required below. Mandatory
+domain and access gates still apply.
+
 1. Read the closest repository instructions and current `TASK_HANDOFF.md` when
    present. Reconcile any transient Git observation there with live repository
    state. A commit created after a completed handoff is normal lifecycle

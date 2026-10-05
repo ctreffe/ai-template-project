@@ -6,6 +6,10 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Adopt TVDR-0044: advisory task-fit reasoning, bounded authorized delegation,
+  concise reporting and explicit same-objective context reuse. Preserve domain
+  and access gates, fresh patch spans and the configured reasoning baseline.
+
 - Adopt AI Project Template and `ai-template-project` in current identity,
   public links, setup guidance, mapping examples and skill references under
   TVDR-0042/0043. Preserve historical provenance, MIT licensing and the private
