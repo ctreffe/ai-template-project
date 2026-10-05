@@ -4,7 +4,7 @@
 
 Decision Records document important decisions that future collaborators should understand without relying on chat history.
 
-The AGIT Project Template defaults to Project Decision Records (PDRs), but derived projects may also use Architecture Decision Records (ADRs) or Documentation Decision Records (DDRs) when the decision subject calls for a more specific record type.
+The AI Project Template defaults to Project Decision Records (PDRs), but derived projects may also use Architecture Decision Records (ADRs) or Documentation Decision Records (DDRs) when the decision subject calls for a more specific record type.
 
 Choose the prefix by decision subject, not by repository type.
 

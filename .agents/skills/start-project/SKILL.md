@@ -7,7 +7,7 @@ description: Initialize an uninitialized working repository from its retained se
 
 Verify that this is an uninitialized working repository created from a source
 template, not a source-template maintenance checkout or an active project. In
-the Secure AI Template this may be a fresh local control-plane clone.
+the AI Guarded Agent Template this may be a fresh local control-plane clone.
 
 1. Apply `AGENTS.md`, then read `PROJECT_SETUP.md` and only the setup,
    privacy, domain and repository guidance it directly requires. Inspect Git

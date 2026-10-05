@@ -12,7 +12,7 @@ needs that destination.
 
 | Role | Expected repository | Local clone path |
 | --- | --- | --- |
-| Templateverse Governance | `AGIT Templateverse` | `Unset` |
+| Templateverse Governance | `AI Templateverse` | `Unset` |
 | Verified source template | Current source template or `PROJECT_CONTEXT.md` lineage | `.` for source-template maintenance; replace or use `Unset` in a derived project |
 
 Before using a mapping, canonicalize the path and verify tracked repository

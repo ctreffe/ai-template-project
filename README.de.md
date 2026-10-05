@@ -1,13 +1,13 @@
-# AGIT Project Template
+# AI Project Template
 
 [![Status](https://img.shields.io/badge/status-stable-green)](VERSION)
-[![Version](https://img.shields.io/github/v/tag/ctreffe/agit-project-template?label=version)](CHANGELOG.md)
-[![License](https://img.shields.io/github/license/ctreffe/agit-project-template)](LICENSE)
+[![Version](https://img.shields.io/github/v/tag/ctreffe/ai-template-project?label=version)](CHANGELOG.md)
+[![License](https://img.shields.io/github/license/ctreffe/ai-template-project)](LICENSE)
 
 > [!NOTE]
 > **KI-Zusammenarbeit**
 >
-> Dieses Repository pflegt das generische AGIT Project Template.
+> Dieses Repository pflegt das generische AI Project Template.
 >
 > Das Template dokumentiert Praktiken für KI-gestützte Zusammenarbeit, Kontextübergaben, Decision Records und Repository-Konventionen für strukturierte Projektarbeit.
 >
@@ -23,7 +23,7 @@
 
 - [Überblick](#überblick)
 - [Kernprinzip](#kernprinzip)
-- [AGIT Templateverse](#agit-templateverse)
+- [AI Templateverse](#ai-templateverse)
 - [Wann dieses Template geeignet ist](#wann-dieses-template-geeignet-ist)
 - [Projektinitialisierung](#projektinitialisierung)
 - [Externe Dateien und Quellen](#externe-dateien-und-quellen)
@@ -41,7 +41,7 @@
 
 ## Überblick
 
-Das AGIT Project Template ist ein generischer Ausgangspunkt für Projekte, die von strukturierter Zusammenarbeit, explizitem Kontext, dokumentierten Entscheidungen und zuverlässiger Übergabe zwischen Arbeitssitzungen profitieren. Es ist bewusst nicht auf Softwareentwicklung beschränkt: Es unterstützt Forschung, Planung, Konzeptarbeit, Prozessgestaltung, operative Projekte und gemischte Projekttypen.
+Das AI Project Template ist ein generischer Ausgangspunkt für Projekte, die von strukturierter Zusammenarbeit, explizitem Kontext, dokumentierten Entscheidungen und zuverlässiger Übergabe zwischen Arbeitssitzungen profitieren. Es ist bewusst nicht auf Softwareentwicklung beschränkt: Es unterstützt Forschung, Planung, Konzeptarbeit, Prozessgestaltung, operative Projekte und gemischte Projekttypen.
 
 Das Template stellt ein Repository-zentriertes Kollaborationsmodell, lokale Codex-Regeln, abgegrenzte Kollaborations-Skills, erhaltene Setup-Leitlinien, einen aktuellen Projektkontext, Dokumentations- und Repository-Standards, Leitlinien für Decision Records und optionale Arbeitsordner bereit. Es ist eine Projektmethode und Repository-Grundlage, kein domänenspezifisches Framework.
 
@@ -51,13 +51,13 @@ Der Maintainer verantwortet Projektintention und -richtung. Der Assistant kann I
 
 Das Repository ist das dauerhafte Projektgedächtnis. Künftige Maintainer, Mitwirkende oder Assistants sollen den aktuellen Zustand verstehen und die Arbeit fortsetzen können, ohne auf private Chatverläufe angewiesen zu sein.
 
-## AGIT Templateverse
+## AI Templateverse
 
-Die öffentlichen AGIT-Templates bilden ein kleines Templateverse: eine Familie verwandter Templates, die ein Repository-zentriertes, vom Maintainer geführtes Modell der Mensch-KI-Zusammenarbeit teilen und es für unterschiedliche Projekttypen spezialisieren.
+Die öffentlichen AI-Templates bilden ein kleines Templateverse: eine Familie verwandter Templates, die ein Repository-zentriertes, vom Maintainer geführtes Modell der Mensch-KI-Zusammenarbeit teilen und es für unterschiedliche Projekttypen spezialisieren.
 
-- Das [AGIT Project Template](https://github.com/ctreffe/agit-project-template) ist der generische Ausgangspunkt für strukturierte Projektarbeit, Forschung, Planung, Konzeptarbeit, Prozessgestaltung und gemischte Projekte.
-- Das [AGIT Dev Template](https://github.com/ctreffe/agit-dev-template) ist für entwicklungsorientierte Projekte gedacht, in denen Code, Skripte, Automatisierung, Validierung, Architektur oder Release-Workflows zentral sind.
-- Das [AGIT Documentation Template](https://github.com/ctreffe/agit-docs-template) ist für technische Dokumentationsprojekte wie Benutzer- und Administrationshandbücher, Betriebsanweisungen, Tutorials, Migrationsleitfäden und Dokumentationswebsites gedacht.
+- Das [AI Project Template](https://github.com/ctreffe/ai-template-project) ist der generische Ausgangspunkt für strukturierte Projektarbeit, Forschung, Planung, Konzeptarbeit, Prozessgestaltung und gemischte Projekte.
+- Das [AI Dev Template](https://github.com/ctreffe/ai-template-dev) ist für entwicklungsorientierte Projekte gedacht, in denen Code, Skripte, Automatisierung, Validierung, Architektur oder Release-Workflows zentral sind.
+- Das [AI Documentation Template](https://github.com/ctreffe/ai-template-docs) ist für technische Dokumentationsprojekte wie Benutzer- und Administrationshandbücher, Betriebsanweisungen, Tutorials, Migrationsleitfäden und Dokumentationswebsites gedacht.
 
 ## Wann dieses Template geeignet ist
 
@@ -197,7 +197,7 @@ Dateien behalten ihre gepflegten Orte.
 
 ## Empfohlener Workflow
 
-AGIT-Projekte entwickeln sich von der Maintainer-Intention aus in kleinen, prüfbaren Projektschleifen:
+Projekte entwickeln sich von der Maintainer-Intention aus in kleinen, prüfbaren Projektschleifen:
 
 ```text
 Intention -> Roadmap -> Erzeugen -> Prüfen -> Abgleichen -> Festhalten -> Fortsetzen
@@ -347,7 +347,7 @@ Nutze `$sync-template`, um ein konkretes Projekt mit einer verifizierten Source-
 
 Behandle Beobachtungen aus einem abgeleiteten Projekt als Kandidaten und nicht als automatische Template-Regeln. Prüfe, ob sie wiederholt auftreten, außerhalb ihres ursprünglichen Kontexts nützlich bleiben und in das generische Template oder eine Domänenspezialisierung gehören. Abgeleitete Projekte und ihre Decision Records bleiben für projektspezifische Entscheidungen maßgeblich.
 
-Der Maintainer koordiniert die templateübergreifende Weiterentwicklung in einem privaten Governance-Repository namens `agit-templateverse`. Es dokumentiert gemeinsame Konventionen, bewusste Spezialisierungen und Evidenz aus abgeleiteten Projekten. Das Repository wird bewusst nicht verlinkt, da Template-Nutzer:innen keinen Zugriff darauf benötigen.
+Der Maintainer koordiniert die templateübergreifende Weiterentwicklung in einem privaten Governance-Repository namens `ai-templateverse`. Es dokumentiert gemeinsame Konventionen, bewusste Spezialisierungen und Evidenz aus abgeleiteten Projekten. Das Repository wird bewusst nicht verlinkt, da Template-Nutzer:innen keinen Zugriff darauf benötigen.
 
 Die Governance-Koordination erzeugt keine verborgenen Anforderungen. Jede Änderung, die dieses Template betrifft, muss hier durch gepflegte Leitlinien, gegebenenfalls Decision Records, den Changelog und die Release-Historie abgebildet werden. Template-Änderungen sollen betroffene Dokumente kohärent aktualisieren, statt isolierte Notizen anzuhängen.
 

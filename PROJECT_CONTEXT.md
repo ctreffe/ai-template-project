@@ -2,7 +2,7 @@
 
 # Project Context Template
 
-This document captures the current state of a project created from the AGIT Project Template.
+This document captures the current state of a project created from the AI Project Template.
 
 It is the primary handoff document for resuming work after a pause, continuing on another computer or starting a new AI-assisted session.
 
@@ -21,7 +21,7 @@ Repository role:
 Source template:
 
 ```text
-AGIT Project Template
+AI Project Template
 ```
 
 Initial template baseline:
@@ -100,7 +100,7 @@ Project type:
 Potential transition:
 
 ```text
-<whether this project may later adopt the AGIT Dev Template>
+<whether this project may later adopt the AI Dev Template>
 ```
 
 ---

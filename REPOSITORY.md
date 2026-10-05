@@ -2,7 +2,7 @@
 
 # Repository Standards
 
-This document describes repository-level standards for projects created from the AGIT Project Template.
+This document describes repository-level standards for projects created from the AI Project Template.
 
 ---
 
@@ -233,9 +233,9 @@ Whatever scheme is chosen should be documented and used consistently.
 
 ---
 
-# Transition to AGIT Dev Template
+# Transition to AI Dev Template
 
-If a project becomes development-oriented, consider adopting or migrating toward the AGIT Dev Template.
+If a project becomes development-oriented, consider adopting or migrating toward the AI Dev Template.
 
 This is useful when the project becomes centered on:
 

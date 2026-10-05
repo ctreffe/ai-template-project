@@ -6,6 +6,11 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Adopt AI Project Template and `ai-template-project` in current identity,
+  public links, setup guidance, mapping examples and skill references under
+  TVDR-0042/0043. Preserve historical provenance, MIT licensing and the private
+  Governance disclosure without adding a link.
+
 - Implement IDEA-0020 under TVDR-0041. Normal sandboxed execution remains
   preferred when equally effective; already authorized in-scope actions request
   the narrowest sufficient platform escalation when technically required,

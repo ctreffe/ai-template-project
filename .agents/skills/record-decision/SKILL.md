@@ -12,8 +12,8 @@ First identify the repository role. In governance, use the governance record
 taxonomy. In a derived project, create concrete numbered records when the
 decision threshold is met. In a regular source template, do not create a new
 concrete numbered record: keep only the `0000` record templates and route a
-durable family or template decision to the governance repository. The AGIT
-Secure AI Template is the explicit exception because it is also the control
+durable family or template decision to the governance repository. The AI
+Guarded Agent Template is the explicit exception because it is also the control
 plane for secure projects; there, follow its local accepted record taxonomy and
 security authority. Existing concrete records in any other source template are
 historical state, not a precedent for adding another one.

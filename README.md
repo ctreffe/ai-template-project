@@ -1,13 +1,13 @@
-# AGIT Project Template
+# AI Project Template
 
 [![Status](https://img.shields.io/badge/status-stable-green)](VERSION)
-[![Version](https://img.shields.io/github/v/tag/ctreffe/agit-project-template?label=version)](CHANGELOG.md)
-[![License](https://img.shields.io/github/license/ctreffe/agit-project-template)](LICENSE)
+[![Version](https://img.shields.io/github/v/tag/ctreffe/ai-template-project?label=version)](CHANGELOG.md)
+[![License](https://img.shields.io/github/license/ctreffe/ai-template-project)](LICENSE)
 
 > [!NOTE]
 > **AI Collaboration**
 >
-> This repository maintains the generic AGIT Project Template.
+> This repository maintains the generic AI Project Template.
 >
 > The template documents AI-assisted collaboration practices, context handoff, decision records and repository conventions for structured project work.
 >
@@ -23,7 +23,7 @@
 
 - [Overview](#overview)
 - [Core Principle](#core-principle)
-- [AGIT Templateverse](#agit-templateverse)
+- [AI Templateverse](#ai-templateverse)
 - [When to Use This Template](#when-to-use-this-template)
 - [Project Initialization](#project-initialization)
 - [External Files and Sources](#external-files-and-sources)
@@ -41,7 +41,7 @@
 
 ## Overview
 
-The AGIT Project Template is a generic starting point for projects that benefit from structured collaboration, explicit context, documented decisions and reliable handoff between work sessions. It is intentionally not limited to software development: it supports research, planning, concept work, process design, operational projects and mixed project types.
+The AI Project Template is a generic starting point for projects that benefit from structured collaboration, explicit context, documented decisions and reliable handoff between work sessions. It is intentionally not limited to software development: it supports research, planning, concept work, process design, operational projects and mixed project types.
 
 The template provides a repository-first collaboration model, local Codex rules, scoped collaboration skills, retained setup guidance, a current-state project context, documentation and repository standards, decision-record guidance and optional working folders. It is a project method and repository foundation, not a domain-specific framework.
 
@@ -51,13 +51,13 @@ The maintainer owns the project intent and direction. The assistant may help str
 
 The repository is the durable project memory. A future maintainer, contributor or assistant should be able to understand the current state and continue the work without relying on private chat history.
 
-## AGIT Templateverse
+## AI Templateverse
 
-The public AGIT templates form a small templateverse: a family of related templates that share a repository-first, maintainer-led Human-AI collaboration model while specializing it for different project types.
+The public AI templates form a small templateverse: a family of related templates that share a repository-first, maintainer-led Human-AI collaboration model while specializing it for different project types.
 
-- [AGIT Project Template](https://github.com/ctreffe/agit-project-template) is the generic starting point for structured project work, research, planning, concept work, process design and mixed projects.
-- [AGIT Dev Template](https://github.com/ctreffe/agit-dev-template) is for development-oriented projects where code, scripts, automation, validation, architecture or release workflows are central.
-- [AGIT Documentation Template](https://github.com/ctreffe/agit-docs-template) is for technical documentation projects such as user guides, admin guides, operating procedures, tutorials, migration guides and documentation sites.
+- [AI Project Template](https://github.com/ctreffe/ai-template-project) is the generic starting point for structured project work, research, planning, concept work, process design and mixed projects.
+- [AI Dev Template](https://github.com/ctreffe/ai-template-dev) is for development-oriented projects where code, scripts, automation, validation, architecture or release workflows are central.
+- [AI Documentation Template](https://github.com/ctreffe/ai-template-docs) is for technical documentation projects such as user guides, admin guides, operating procedures, tutorials, migration guides and documentation sites.
 
 ## When to Use This Template
 
@@ -188,7 +188,7 @@ maintained locations.
 
 ## Recommended Workflow
 
-AGIT projects proceed from maintainer intent through small, reviewable project loops:
+Projects proceed from maintainer intent through small, reviewable project loops:
 
 ```text
 Intent -> Roadmap -> Produce -> Review -> Check -> Record -> Continue
@@ -334,7 +334,7 @@ Use `$sync-template` to compare a concrete project with a verified source-templa
 
 Treat observations from a derived project as candidates rather than automatic template rules. Evaluate whether they recur, remain useful outside their original context and belong in the generic template or a domain specialization. Derived projects and their Decision Records remain authoritative for project-specific choices.
 
-The maintainer coordinates cross-template evolution in a private governance repository named `agit-templateverse`. It records shared conventions, deliberate specializations and evidence from derived projects. The repository is intentionally not linked because template users do not need access to it.
+The maintainer coordinates cross-template evolution in a private governance repository named `ai-templateverse`. It records shared conventions, deliberate specializations and evidence from derived projects. The repository is intentionally not linked because template users do not need access to it.
 
 Governance coordination does not create hidden requirements. Every change that affects this template must be represented here through maintained guidance, Decision Records where appropriate, the changelog and release history. Template changes should update affected documents coherently rather than append isolated notes.
 

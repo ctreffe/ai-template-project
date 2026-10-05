@@ -2,7 +2,7 @@
 
 # Project Setup Guide
 
-This document describes how to initialize a new project from the AGIT Project Template.
+This document describes how to initialize a new project from the AI Project Template.
 
 It is primarily used during project creation and should normally remain in a
 derived repository as a record of its initialization method. Record lifecycle
@@ -205,7 +205,7 @@ Good first PDR candidates include:
 - documentation model
 - source handling
 - privacy boundaries
-- transition toward the AGIT Dev Template
+- transition toward the AI Dev Template
 
 The Decision Record concept is documented in `DECISIONS.md`.
 
@@ -278,13 +278,13 @@ are human-readable, omit the prefix and include the completed version number.
 Example summary:
 
 ```text
-chore: initialize project from AGIT template
+chore: initialize project from AI template
 ```
 
 Example description:
 
 ```text
-Initialize the project from the AGIT Project Template.
+Initialize the project from the AI Project Template.
 
 Adapt the project context, README, repository metadata and working folders for
 the new project. Establish the initial project intent and roadmap.

@@ -1,6 +1,6 @@
 # Decision Records
 
-This directory is the default location for durable decision records in projects derived from the AGIT Project Template.
+This directory is the default location for durable decision records in projects derived from the AI Project Template.
 
 Use the record type that matches the decision:
 

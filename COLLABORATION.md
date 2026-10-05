@@ -1,4 +1,4 @@
-# AGIT Project Collaboration Contract
+# AI Project Collaboration Contract
 
 ## Purpose and Roles
 

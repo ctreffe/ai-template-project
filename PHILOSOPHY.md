@@ -2,7 +2,7 @@
 
 # Project Philosophy
 
-The AGIT Project Template is based on the idea that good project work is easier to continue when intent, context, decisions and outputs are visible in the repository.
+The AI Project Template is based on the idea that good project work is easier to continue when intent, context, decisions and outputs are visible in the repository.
 
 The repository should become the project memory.
 
@@ -54,7 +54,7 @@ The goal is not to create bureaucracy. The goal is to make future continuation e
 
 Some projects begin as planning, research or documentation work and later become development-oriented.
 
-The generic template should support that evolution. When the project becomes centered on code, automation, tests, releases or technical architecture, adopting the AGIT Dev Template may become appropriate.
+The generic template should support that evolution. When the project becomes centered on code, automation, tests, releases or technical architecture, adopting the AI Dev Template may become appropriate.
 
 ---
 
