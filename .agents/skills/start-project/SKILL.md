@@ -60,7 +60,7 @@ the AI Guarded Agent Template this may be a fresh local control-plane clone.
    template-only references. Retain `IDEAS.md` only when the maintainer
    deliberately establishes a project-local backlog. Do not rewrite an
    existing active derived project through initialization cleanup, and do not
-   remove `create-secure-project` from a Secure AI control plane. If setup is
+   remove `create-secure-project` from a Guarded Agent control plane. If setup is
    incomplete, leave every reset and cleanup pending and report it.
 7. Run proportionate local validation and report changes, checks, limitations,
    remaining maintainer decisions and suitable commit metadata.

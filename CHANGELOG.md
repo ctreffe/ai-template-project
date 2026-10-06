@@ -6,6 +6,10 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Complete the naming follow-up: align the idea-backlog title with AI Project
+  Template and the initialization skill's control-plane reference with Guarded
+  Agent, preserving workflow and historical evidence.
+
 - Adopt TVDR-0044: advisory task-fit reasoning, bounded authorized delegation,
   concise reporting and explicit same-objective context reuse. Preserve domain
   and access gates, fresh patch spans and the configured reasoning baseline.
