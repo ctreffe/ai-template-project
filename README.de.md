@@ -118,6 +118,22 @@ ihre Verweise werden entfernt, sofern der Maintainer nicht bewusst einen
 projekteigenen Ideenbestand einrichtet. Die Initialisierungsdateien bleiben als
 Provenienz erhalten.
 
+Bei der Initialisierung werden die geerbten `README.md` und `README.de.md`
+zu `TEMPLATE_README.md` und `TEMPLATE_README.de.md`. Sie bleiben als angepasste
+Anleitungen für Workflows, Skills und Repository-Konventionen erhalten. Neue
+Projekt-READMEs in beiden Sprachen stellen das konkrete Projekt vor und verlinken
+früh unter "Workflows und Skills" auf die zugehörige Anleitung. Jedes Paar hat
+eigene Sprachlinks; die Anleitungen verlinken zurück zur Projektbeschreibung.
+
+Die Anleitungen beschreiben die verbleibenden Dateien und Skills, enthalten
+keine geerbten Badges und unterscheiden Template-Provenienz von Projektidentität
+und Lizenzierung. Spätere ausgewählte `$sync-template`-Aktualisierungen bilden
+die Quell-READMEs auf diese Anleitungen ab und bewahren Projektanpassungen sowie
+Projektbeschreibungen. Bestehende Projekte übernehmen diese Struktur nur durch
+bewusste Pflege. Dieses Quell-Repository behält sein ursprüngliches README-Paar.
+[PROJECT_SETUP.md](PROJECT_SETUP.md) beschreibt die Initialisierung und die
+Fortsetzung nach unterbrochenem Setup.
+
 ## Skills für die Zusammenarbeit
 
 Skills sind abgegrenzte Arbeitsabläufe in [`.agents/skills/`](.agents/skills/).

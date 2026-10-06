@@ -116,6 +116,21 @@ template-only `IDEAS.md`, the project's copy of `$create-local-project` and
 their references are removed unless the maintainer deliberately establishes a
 project-local idea backlog. The initialization files remain as provenance.
 
+During initialization, the inherited `README.md` and `README.de.md` become
+`TEMPLATE_README.md` and `TEMPLATE_README.de.md`. They remain available as
+adapted guides to workflows, skills and repository conventions. New project
+READMEs in both languages introduce the actual project and link early to the
+corresponding guide under "Workflows and Skills". Each pair has its own language
+links, and the guides link back to the project introductions.
+
+The guides describe the retained file and skill inventory, omit inherited
+badges and distinguish template provenance from project identity and licensing.
+Later selected `$sync-template` updates map upstream READMEs to these guides
+while preserving project adaptations and the project introductions. Existing
+projects adopt this layout only through deliberate maintenance. This source
+repository keeps its original README pair. See [PROJECT_SETUP.md](PROJECT_SETUP.md)
+for the initialization and interrupted-setup contract.
+
 ## Collaboration Skills
 
 Skills are scoped workflows in [`.agents/skills/`](.agents/skills/). They guide

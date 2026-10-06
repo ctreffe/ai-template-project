@@ -16,7 +16,26 @@ The public entry point. It explains what the project is, who it is for and where
 
 ## README Language Policy
 
-In this template repository, `README.md` is authoritative and `README.de.md` is maintained as a close structural and semantic translation. Derived projects may choose a different authority model, but they must document it and keep parallel README files aligned.
+In source-template checkouts, `README.md` is the English source text and
+`README.de.md` is its close structural and semantic German translation. In
+initialized projects this applies independently to the project pair and the
+retained guide pair. Both pairs are required; the project introduction and
+the guide have different roles and are not translations of one another.
+
+## Project and guide README roles
+
+After initialization, `README.md` and `README.de.md` introduce the actual project
+and link early to its workflows and skills. `TEMPLATE_README.md` and
+`TEMPLATE_README.de.md` retain adapted inherited operating guidance. Both pairs
+are required, have reciprocal language links within the pair and link between
+project introduction and guide in the same language. Follow `PROJECT_SETUP.md`
+for safe renaming, interrupted setup and final inventory review. Local resident
+and domain rules and accepted decisions remain authoritative. Keep guide links,
+identity and license wording accurate and omit inherited guide badges. Badge
+policy applies to source-template or project introductions, not guides.
+Selected upstream README updates map to the guides through `sync-template`,
+without replacing the project introductions. Source checkouts retain their
+original pair; existing projects are not automatically migrated.
 
 ## README Badge Block
 

@@ -1,42 +1,37 @@
 # Task Handoff
 
-- **Status:** Completed: default commit-and-normal-push and repository-local
-  `reuse-fixes` rollout and compact fix memory. No required work remains.
-- **Authority:** Maintainer requested the two commit-workflow changes, approved
-  autonomous reuse of confirmed fixes and selected `reuse-fixes`. TVDR-0045
-  records the bounded Git exception; TVDR-0046 replaces the old route-choice
-  workflow and excludes cross-repository or global error memory.
-- **Outcome:** Explicit commit authorization in the two workflows includes
-  the normal push to the verified existing upstream unless excluded.
-  `reuse-fixes` replaces `troubleshoot-environment`, consults this repository's
-  confirmed corrections and retains concise prevention. Existing action gates
-  and the prior bilingual skill catalogs remain intact.
-- **Change scope:** Three skills (including the rename), `AGENTS.md`, `COLLABORATION.md`,
-  `REPOSITORY.md`, `PROJECT_SETUP.md`, root bilingual READMEs,
-  `TROUBLESHOOTING.md`, `CHANGELOG.md` and this handoff.
-- **Checks:** Three changed skills passed this repository's
+- **Status:** Completed: four-file README initialization and selected upstream
+  README synchronization contracts implemented and reviewed. No required
+  implementation work remains in this bounded source-template task.
+- **Authority:** Maintainer approved preserving and adapting the inherited
+  README pair, creating bilingual project introductions and implementing all
+  four identity/inventory, badge, synchronization and language requirements.
+  Governance records the family decision as TVDR-0048.
+- **Outcome:** New initialization keeps `README.md` / `README.de.md` for the
+  project and adapts inherited guidance as `TEMPLATE_README.md` /
+  `TEMPLATE_README.de.md`. Both pairs are required. The contract preserves
+  content on collisions and interrupted setup, aligns final file/skill links,
+  identity, badges, licensing and role/language navigation. `sync-template`
+  maps upstream README changes to guides while preserving project adaptations.
+- **Change scope:** `start-project`, `sync-template`, `PROJECT_SETUP.md`,
+  `DOCUMENTATION.md`, `REPOSITORY.md`, both source READMEs, changelog and this
+  handoff. Source maintenance checkouts retain their original README pair.
+- **Domain adaptation:** Preserve generic project intent and the local PDR taxonomy.
+- **Checks:** Both changed skills passed this repository's
   `scripts/Test-CodexSkill.ps1` with the existing exact Governance interpreter
-  and pinned PyYAML 6.0.3; no environment or package was installed. Local source
-  and bilingual meaning review passed. Complete skill inventory, invocation
-  metadata, rename, local link resolution and bilingual order/mode parity
-  passed for both READMEs.
-- **Compact memory refinement:** Maintainer approved 4–8-line active cases.
-  TVDR-0047 supersedes the expanded schema only. All own cases are compact;
-  original evidence is byte-preserved in `TROUBLESHOOTING_DETAILS.md`.
-  Skills read matching details only when needed; both README languages explain it.
-- **Refinement checks:** All seven changed reuse-fixes skills passed their local
-  validator with the existing pinned environment. All 31 case inventories,
-  field/length rules, evidence hashes/anchors and 14 README references passed.
-  Governance content (47 decisions), Governance-only skill topology and the two
-  changed PowerShell parsers passed. Source and bilingual meaning were reviewed.
-- **Deferred evidence:** No full Governance/family/milestone gate, whitespace,
-  broad render, domain suite or protected-operation check ran. The implementation
-  was verified without exercising commit-and-push. Source/structure checks do not
-  establish future model compliance or error-learning effectiveness.
-- **Preserved:** Prior README work, unrelated files, historical decisions and
-  release evidence, versions, licenses, domain artifacts, existing derived
-  projects, index selections, branches, Git history and remotes.
-- **Open points and continuation:** None for this bounded rollout. Future
-  naturally authorized tasks can supply runtime behavior evidence.
-- **Versioning boundary:** Implementation performed no staging, commit, push, tag
-  or release. Later versioning uses live state and separate exact authority.
+  and pinned PyYAML 6.0.3; the refined start-project passed again. No environment
+  or package was installed. Changed-source and bilingual meaning review passed.
+  Focused checks confirmed README additions, preserved headings/language links,
+  required four-file contracts and absence of guide copies in source checkouts.
+  Exact changed-file Markdown link validation passed for this repository.
+- **Evidence limits:** Source and structure checks establish the instructions,
+  not future model compliance. No actual derived-project initialization,
+  interrupted setup or synchronization was executed. Full domain, rendering,
+  whitespace, repository, family and milestone gates were not run.
+- **Preserved:** Prior work, unrelated files, versions, licenses, domain
+  safeguards, existing projects, index selections, branches, Git history and
+  remotes. No staging, commit, push, tag or release was performed.
+- **Open points and continuation:** No required task work remains. The next
+  naturally authorized initialization or selected synchronization can supply
+  runtime evidence for the new layout; existing projects adopt it separately.
+  Later versioning uses live state and separate exact authority.

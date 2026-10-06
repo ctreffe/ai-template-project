@@ -6,6 +6,12 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Separate project introductions from retained template workflow guides during
+  initialization: require both README language pairs, adapt removed-file/skill
+  references, identity, badges and license wording, and map selected upstream
+  README updates to `TEMPLATE_README.md` and `TEMPLATE_README.de.md`. Preserve
+  existing project adaptations and domain/access boundaries.
+
 - Compact repository-local fix memory to 4–8 lines per active case; preserve
   original evidence separately and load matching details only when needed.
 

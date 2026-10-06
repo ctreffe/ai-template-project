@@ -45,6 +45,18 @@ Projects may adapt this structure. When a folder gains project-specific meaning,
 
 ---
 
+## Project introductions and inherited workflow guides
+
+New project initialization follows the four-file contract in `PROJECT_SETUP.md`:
+`README.md` and `README.de.md` introduce the project; `TEMPLATE_README.md` and
+`TEMPLATE_README.de.md` retain adapted workflow and skill guidance. Both language
+pairs are required and link to one another by role and language. Project README
+badge policy applies to the project pair; retained guides omit inherited badges.
+Keep guides aligned with actual retained files and skills and local accepted
+rules. Selected upstream README updates map to the guides through `sync-template`
+without replacing the project introductions. Source maintenance checkouts retain
+their own README pair; the extra files exist only after project initialization.
+
 # README Badge Policy
 
 Template repositories use a compact badge block directly below the README
@@ -61,7 +73,8 @@ readiness.
 Derived projects adapt the block to their actual status, versioning model,
 license and automation. They must not present the source-template version as
 their project version or advertise a workflow that does not exist. English and
-German badge blocks remain identical when both languages are maintained.
+German project README badge blocks remain identical; retained guides omit
+inherited badge blocks.
 
 ---
 

@@ -34,6 +34,20 @@ the AI Guarded Agent Template this may be a fresh local control-plane clone.
    documentation named by `PROJECT_SETUP.md`. Record initialization status and
    date, source-template version and commit, synchronization baseline and
    intentional deviations.
+   Before adapting README content, follow "Project READMEs and retained
+   template guides" in `PROJECT_SETUP.md`: inspect all four paths, preserve
+   changes and rename only confirmed inherited READMEs without overwrite.
+   Create required project `README.md` / `README.de.md` and adapt retained
+   `TEMPLATE_README.md` / `TEMPLATE_README.de.md`. Verify partial setup before
+   resuming; never rename a project introduction or replace an existing guide
+   with another inherited README. Continue adapting verified partial guides
+   while preserving unrelated edits. Remove dead template-only file/skill
+   links, correct guide identity,
+   omit inherited guide badges and preserve license notices and domain rules.
+   Link the project pair early to the guides, maintain reciprocal language
+   links within each pair and guide links back to the project introductions.
+   Review bilingual meaning and local navigation against the final cleanup
+   plan before declaring success; verify actual remaining links after cleanup.
    If `RETROSPECTIVE_PATHS.local.md` is absent, create it from the tracked
    example. Retain an exact verified source-template clone path supplied by
    `create-local-project`; otherwise leave that mapping `Unset`. Record a
