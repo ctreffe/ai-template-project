@@ -1,6 +1,6 @@
 ---
 name: commit-changes
-description: Finalize an ordinary reviewed change as a scoped Git commit and optionally push it. Do not use for version or milestone closure.
+description: Finalize an ordinary reviewed change as a scoped commit and normal upstream push unless excluded. Do not use for version or milestone closure.
 ---
 
 # Commit Changes
@@ -8,6 +8,14 @@ description: Finalize an ordinary reviewed change as a scoped Git commit and opt
 Confirm repository scope, working-tree state, staged selection and changed
 hunks. Preserve unrelated and pre-existing changes. Reuse current evidence
 while governed inputs have not changed.
+
+When this workflow is requested, repository-specific explicit commit
+authorization includes the commit and its normal push to the verified existing
+upstream, unless the maintainer says commit only, no push or an equivalent
+restriction. Invoking a skill alone supplies no Git authority. Confirm the
+repository, reviewed selection and intended upstream before committing; ask
+only if the target is missing, ambiguous or outside that scope. This is not
+standing authority for later commits, another repository or another Git action.
 
 An ordinary commit needs a good, targeted and reviewable state, not a complete
 repository gate. Select the smallest check or review that materially increases
@@ -33,20 +41,27 @@ record that the commit occurred; later work reconstructs live Git state.
 
 The default `workspace-write` sandbox keeps `.git` read-only. Once exact
 staging is requested or the corresponding commit is authorized, request each
-`git add` and `git commit` command through the platform's narrow sandbox
+`git add`, `git commit` and included `git push` command through the platform's narrow sandbox
 escalation on its first attempt; do not probe the expected `.git/index.lock`
 denial first. Keep read-only Git inspection sandboxed. Escalation changes only
 the execution boundary: it grants no repository, action, path-selection, push
 or standing authority and creates no persistent allow rule.
 
-Create the commit only after action-specific authorization required by the
-repository. If its control word is still needed, propose one minimal copy-ready
-instruction naming the exact action, repository and material consequence; the
-proposal is not authorization. Verify the resulting commit, including its
-complete message, and the remaining working tree. A push is a separate
-protected action: perform it only when separately authorized, using a separate
-copy-ready suggestion when needed, then verify local HEAD and the intended
-upstream revision.
+Create the commit only after the repository's required explicit authorization.
+If the control word is missing, propose one minimal copy-ready instruction
+naming the exact commit-and-push action, repository, existing upstream and
+material consequence; the proposal is not authorization. Respect a commit-only
+restriction without asking again about push.
+
+Verify the resulting commit, including its complete message and remaining
+working tree. Then perform the included normal push unless excluded. Use one
+explicit branch refspec to the verified existing upstream and disable following
+tags. Never force-push, push other refs, create or change a remote, or publish a
+release under this authorization. If a normal push is rejected, retain the
+completed commit and diagnose the push; pull, merge, rebase and force-push
+remain separately controlled. Verify local HEAD and the intended upstream
+revision after success. A required platform escalation is an execution approval,
+not a reason to ask again for an already authorized push.
 
 Stop instead of silently widening scope, repairing unrelated failures or
 including files that were not reviewed.

@@ -23,6 +23,13 @@ Assistant access, Git versioning, publication and external sharing are separate
 decisions. A file's presence, synchronization or successful automated check does
 not grant another form of approval.
 
+Within `commit-changes` or `commit-milestone`, repository-specific explicit
+commit authorization includes the commit and its normal push to the verified
+existing upstream unless the maintainer excludes push. Skill invocation alone
+grants no Git authority. Force-push, other refs, remote changes, tags and release
+publication remain outside this bundle; other protected actions still need
+separate authority. This changes neither content-access nor publication rules.
+
 When an applicable repository rule requires a control word, accompany the
 request with one minimal copy-ready suggested instruction naming the exact
 action, repository or destination and material consequence. Only a matching
@@ -68,17 +75,14 @@ template. Retrospective findings are candidates, not permission to modify the
 template. A transition toward a development-oriented template is a deliberate
 project decision.
 
-Retry a tool or environment failure once only when plausibly transient. On
-recurrence or a setup, policy or permission failure, pause the task and use the
-implicitly discoverable `troubleshoot-environment` workflow. Describe only the
-observed problem before the maintainer chooses an undocumented quick exit or
-focused problem resolution. Explicit invocation for a concrete problem enters
-resolution directly. Only that route loads or updates incident records, and it
-verifies repair at the exact original checkpoint or a pre-agreed standalone
-acceptance test. Request elevated authority proactively when it enables an
-effective durable repair, state its scope and consequence, and leave the
-security judgment to the maintainer. Troubleshooting grants no input, material,
-privilege, installation, Git, external-operation or publication authority.
+For a clear access, authorization or setup failure, or a recurring execution
+mistake, use `reuse-fixes` to consult this repository's confirmed experience
+before repeating the failed approach. Apply an authorized correction, verify
+it at the original checkpoint and retain concise prevention. Ask only for
+missing authority or a material decision; there is no mandatory route-choice
+menu. Keep experience repository-local and host facts in the ignored local
+record. Do not collect or transfer lessons between repositories. All existing
+access, security, installation, Git and publication boundaries remain in force.
 
 ## Task Effort and Communication
 

@@ -6,6 +6,21 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Compact repository-local fix memory to 4–8 lines per active case; preserve
+  original evidence separately and load matching details only when needed.
+
+- Adopt TVDR-0045: explicit commit authorization in commit-changes and
+  commit-milestone includes the normal verified-upstream push unless excluded;
+  other Git actions, tags, remotes and publication stay separately controlled.
+
+- Adopt TVDR-0046: rename troubleshoot-environment to reuse-fixes. Consult only
+  this repository's confirmed fixes, retain concise prevention and ask only for
+  missing authority or blocking decisions, preserving all local domain gates.
+
+- Add a bilingual README skill catalog with linked purposes and explicit or
+  agent-driven invocation rules, preserving local workflow and access boundaries
+  and attributing the optional planning skills separately.
+
 - Complete the naming follow-up: align the idea-backlog title with AI Project
   Template and the initialization skill's control-plane reference with Guarded
   Agent, preserving workflow and historical evidence.

@@ -159,8 +159,16 @@ assistant to perform that specific action and uses a recognized control word:
 `explicit` or `explicitly` in English, or the German word family `explizit`,
 including `explizite`, `expliziten`, `expliziter` and `explizites`.
 
+Within `commit-changes` or `commit-milestone`, repository-specific explicit
+commit authorization includes the commit and its normal push to the verified
+existing upstream unless the maintainer excludes push. Skill invocation alone
+grants no Git authority. Force-push, other refs, remote changes, tags and release
+publication remain outside this bundle; other protected actions still need
+separate authority. This changes neither content-access nor publication rules.
+
 Approval for file edits is not approval for protected Git actions. Approval for
-one protected action is not approval for another. Requests such as "commit this",
+other independent protected actions still require their own authority,
+with the bounded commit-and-push workflow below as the specific exception. Requests such as "commit this",
 "create the commit", "tag this" or "push this" do not authorize the assistant to
 run protected Git commands unless they contain a recognized control word.
 

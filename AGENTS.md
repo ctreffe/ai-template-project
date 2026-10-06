@@ -11,6 +11,9 @@ Resident contract.
   rebases, resets, reverts, branches, stashes, destructive restores and direct
   `.git/` changes each require an instruction containing `explicit`,
   `explicitly` or German `explizit`.
+- In `commit-changes` or `commit-milestone`, explicit commit authorization
+  for this repository includes the normal push to its verified existing
+  upstream unless excluded. Other Git actions remain separately controlled.
 - When such a control-word instruction is needed, propose one minimal copy-ready
   wording that names the exact action, repository and material consequence;
   the proposal is not authorization.
@@ -28,11 +31,10 @@ Resident contract.
   standing authority.
 - Ask before installation, privilege, external operations, outside writes or
   transmission; access, versioning and publication are separate.
-- Retry once only if plausibly transient. On recurrence or setup/policy error,
-  pause; use `troubleshoot-environment`; describe the problem and ask whether
-  to exit for an ordinary quick workaround or resolve the cause. Explicit
-  maintainer invocation enters focused resolution directly. Verify a repair
-  only by continuing the originally blocked operation.
+- Retry unchanged once only if plausibly transient. For clear or recurring
+  failures, use `reuse-fixes` to consult this repository's confirmed fixes,
+  continue within existing authority and ask only for a missing approval or
+  blocking decision. Verify at the original operation and retain useful prevention.
 - `input/intake/` grants no access; keep `input/` unchanged. Registered
   `materials/` and unrestricted `temp/` are readable; never version temporary
   content or inspect `temp/restricted/`. Synchronization grants no access.
