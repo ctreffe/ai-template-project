@@ -11,9 +11,11 @@ Resident contract.
   rebases, resets, reverts, branches, stashes, destructive restores and direct
   `.git/` changes each require an instruction containing `explicit`,
   `explicitly` or German `explizit`.
-- In `commit-changes` or `commit-milestone`, explicit commit authorization
-  for this repository includes the normal push to its verified existing
-  upstream unless excluded. Other Git actions remain separately controlled.
+- In `commit-changes`, explicit repository commit authorization includes normal
+  verified-upstream push unless excluded. In `commit-milestone`, explicit milestone
+  commit authorization also includes its matching annotated version tag and exact
+  tag push. Honor commit-only/no-push/no-tag restrictions. Other Git actions,
+  tag movement/replacement and release publication remain separately controlled.
 - When such a control-word instruction is needed, propose one minimal copy-ready
   wording that names the exact action, repository and material consequence;
   the proposal is not authorization.

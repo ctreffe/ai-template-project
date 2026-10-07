@@ -23,12 +23,15 @@ Assistant access, Git versioning, publication and external sharing are separate
 decisions. A file's presence, synchronization or successful automated check does
 not grant another form of approval.
 
-Within `commit-changes` or `commit-milestone`, repository-specific explicit
-commit authorization includes the commit and its normal push to the verified
-existing upstream unless the maintainer excludes push. Skill invocation alone
-grants no Git authority. Force-push, other refs, remote changes, tags and release
-publication remain outside this bundle; other protected actions still need
-separate authority. This changes neither content-access nor publication rules.
+Within `commit-changes`, repository-specific explicit commit authorization
+includes the normal push to the verified existing upstream unless excluded.
+Within `commit-milestone`, explicit milestone commit authorization also includes
+one matching annotated version tag and its exact upstream push (TVDR-0053).
+"Commit only" excludes tags and pushes; "no push" retains a local commit/tag;
+"no tag" excludes tag creation/push; "no tag push" retains the local tag.
+Skill invocation alone grants no Git authority. Force-push, other refs, remote
+changes, tag movement/replacement and release publication remain separately
+controlled. This changes neither content-access nor publication rules.
 
 When an applicable repository rule requires a control word, accompany the
 request with one minimal copy-ready suggested instruction naming the exact

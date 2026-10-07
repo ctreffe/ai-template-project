@@ -172,12 +172,15 @@ assistant to perform that specific action and uses a recognized control word:
 `explicit` or `explicitly` in English, or the German word family `explizit`,
 including `explizite`, `expliziten`, `expliziter` and `explizites`.
 
-Within `commit-changes` or `commit-milestone`, repository-specific explicit
-commit authorization includes the commit and its normal push to the verified
-existing upstream unless the maintainer excludes push. Skill invocation alone
-grants no Git authority. Force-push, other refs, remote changes, tags and release
-publication remain outside this bundle; other protected actions still need
-separate authority. This changes neither content-access nor publication rules.
+Within `commit-changes`, repository-specific explicit commit authorization
+includes the normal push to the verified existing upstream unless excluded.
+Within `commit-milestone`, explicit milestone commit authorization also includes
+one matching annotated version tag and its exact upstream push (TVDR-0053).
+"Commit only" excludes tags and pushes; "no push" retains a local commit/tag;
+"no tag" excludes tag creation/push; "no tag push" retains the local tag.
+Skill invocation alone grants no Git authority. Force-push, other refs, remote
+changes, tag movement/replacement and release publication remain separately
+controlled. This changes neither content-access nor publication rules.
 
 Approval for file edits is not approval for protected Git actions. Approval for
 other independent protected actions still require their own authority,

@@ -147,10 +147,12 @@ Selecting a skill grants no additional permission for protected Git actions,
 installation, external transmission or publication. Local access and domain
 rules apply to every workflow.
 
-In `commit-changes` and `commit-milestone`, explicit commit authorization for
-this repository includes its normal push to the verified existing upstream.
-Specify "commit only" or "no push" to exclude it. Other Git actions, tags and
-release publication still need their own authorization.
+In `commit-changes`, explicit commit authorization includes normal push to this
+repository's verified existing upstream. In `commit-milestone`, explicit milestone
+commit authorization also includes one matching annotated version tag and its
+exact upstream push. "Commit only" excludes tags and pushes; "no push" retains
+the local commit/tag; "no tag" excludes tags; "no tag push" keeps the tag local.
+Other Git actions, tag movement/replacement and release publication stay separate.
 
 `reuse-fixes` reads and updates only this repository's error knowledge. It does
 not collect lessons across repositories or maintain global memory.
@@ -171,7 +173,7 @@ read only a matching detail section when needed.
 | [`check-consistency`](.agents/skills/check-consistency/SKILL.md) | Explicit | Diagnose internal contradictions between intent, roadmap, decisions, content and documentation; develop bounded options. |
 | [`perform-retrospective`](.agents/skills/perform-retrospective/SKILL.md) | Explicit | Review collaboration evidence and distinguish project findings from reusable template or family candidates. |
 | [`create-local-project`](.agents/skills/create-local-project/SKILL.md) | Explicit | Create a local derived repository from this source template and hand it over to initialization; removed after successful project setup. |
-| [`commit-milestone`](.agents/skills/commit-milestone/SKILL.md) | Explicit | Close a reviewed milestone with metadata, comprehensive applicable checks, a commit and normal upstream push unless excluded. |
+| [`commit-milestone`](.agents/skills/commit-milestone/SKILL.md) | Explicit | Close a reviewed milestone with metadata, comprehensive checks, a commit, annotated version tag and exact upstream pushes unless excluded. |
 
 ### Optional Planning Skills
 
@@ -284,7 +286,7 @@ The maintainer controls Git history. Assistants may inspect status, diffs and lo
 
 Staging and unstaging are index operations. They do not require a control word, but they may be performed only after a specific maintainer request or authorization of the corresponding commit. Existing staged selections and unrelated changes must be preserved.
 
-Protected actions include commits, amendments, tags, pushes, pulls, merges, rebases, resets, branch changes, stash manipulation and other Git history operations. An assistant may perform a specific protected action only when the instruction for that action contains `explicit` or `explicitly` in English, or the German word family `explizit`. File-edit approval does not authorize Git history changes, and other protected actions remain separately authorized, with the commit-and-push workflow above as the specific exception.
+Protected actions include commits, amendments, tags, pushes, pulls, merges, rebases, resets, branch changes, stash manipulation and other Git history operations. An assistant may perform a specific protected action only when the instruction for that action contains `explicit` or `explicitly` in English, or the German word family `explizit`. File-edit approval does not authorize Git history changes, and other protected actions remain separately authorized, with the bounded commit workflows above as the specific exceptions.
 
 When this rule requires authorization, the assistant proposes one minimum-scope,
 copy-ready instruction naming the exact action, repository and material
