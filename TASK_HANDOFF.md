@@ -1,37 +1,34 @@
 # Task Handoff
 
-- **Status:** Completed: four-file README initialization and selected upstream
-  README synchronization contracts implemented and reviewed. No required
-  implementation work remains in this bounded source-template task.
-- **Authority:** Maintainer approved preserving and adapting the inherited
-  README pair, creating bilingual project introductions and implementing all
-  four identity/inventory, badge, synchronization and language requirements.
-  Governance records the family decision as TVDR-0048.
-- **Outcome:** New initialization keeps `README.md` / `README.de.md` for the
-  project and adapts inherited guidance as `TEMPLATE_README.md` /
-  `TEMPLATE_README.de.md`. Both pairs are required. The contract preserves
-  content on collisions and interrupted setup, aligns final file/skill links,
-  identity, badges, licensing and role/language navigation. `sync-template`
-  maps upstream README changes to guides while preserving project adaptations.
-- **Change scope:** `start-project`, `sync-template`, `PROJECT_SETUP.md`,
-  `DOCUMENTATION.md`, `REPOSITORY.md`, both source READMEs, changelog and this
-  handoff. Source maintenance checkouts retain their original README pair.
-- **Domain adaptation:** Preserve generic project intent and the local PDR taxonomy.
-- **Checks:** Both changed skills passed this repository's
-  `scripts/Test-CodexSkill.ps1` with the existing exact Governance interpreter
-  and pinned PyYAML 6.0.3; the refined start-project passed again. No environment
-  or package was installed. Changed-source and bilingual meaning review passed.
-  Focused checks confirmed README additions, preserved headings/language links,
-  required four-file contracts and absence of guide copies in source checkouts.
-  Exact changed-file Markdown link validation passed for this repository.
-- **Evidence limits:** Source and structure checks establish the instructions,
-  not future model compliance. No actual derived-project initialization,
-  interrupted setup or synchronization was executed. Full domain, rendering,
-  whitespace, repository, family and milestone gates were not run.
-- **Preserved:** Prior work, unrelated files, versions, licenses, domain
-  safeguards, existing projects, index selections, branches, Git history and
-  remotes. No staging, commit, push, tag or release was performed.
-- **Open points and continuation:** No required task work remains. The next
-  naturally authorized initialization or selected synchronization can supply
-  runtime evidence for the new layout; existing projects adopt it separately.
-  Later versioning uses live state and separate exact authority.
+- **Date/status:** 2026-10-07. Completed source preparation and applicable
+  available checks for template workflow milestone 0.6.0. This is a
+  source-template qualification with the limitations below, not a release claim.
+- **Authority/scope:** Maintainer invoked commit-milestone for the five remaining
+  templates and selected their next Minor versions. Preserve the reviewed
+  Unreleased workflow changes, editorial cleanup and TVDR-0052 metadata fix;
+  close VERSION/changelog and static badges where present. No new domain design,
+  installation, sensitive access, existing-project migration or release authority.
+- **Outcome:** Changelog 0.6.0 records the completed source workflow
+  baseline, including adapted README guides, local retrospective mapping,
+  demand-driven validation, proportional lifecycle checks and reuse-fixes.
+  The grill-me pin/router/interview, MIT notices and explicit-only policies remain.
+- **Source evidence:** All 14 skills pass this member's
+  Test-CodexSkill.ps1 using the existing exact Governance Python/PyYAML 6.0.3.
+  Selected production skill topology/policies, indexed Markdown links, bilingual
+  README rules, input/material/temp boundaries and applicable review-file policy
+  pass. Required files, version/badges, local Git identity/upstream, tracked
+  whitespace, PowerShell and applicable YAML/QMD/JSON syntax pass.
+- **Domain evidence:** This is a source-template workflow milestone. No application build/runtime suite or renderable project artifact is declared in this source template.
+- **Limits/deferred:** Actual derived-project initialization/synchronization and
+  runtime interview selection are not qualified. No visual QA, optional PDF,
+  live-origin check, new version tag, release publication or complete seven-repo
+  family gate is claimed. Other member evidence cannot replace local domain QA.
+- **Preserved/continuation:** Source/data/scholarly/publication gates, licenses,
+  historical decisions, inherited project-context placeholders and existing
+  derived projects remain. No required implementation work remains in this
+  bounded source preparation; runtime/domain follow-ups retain separate scope.
+- **Versioning boundary:** Exact reviewed source selection and evidence are held
+  in Governance's ignored milestone-other-templates preparation directory.
+  Reconcile live Git and those file hashes before action. Commit and normal push
+  to this repository's existing origin/main require repository-specific explizit
+  authorization; tags/releases remain separate. This checkpoint grants none.

@@ -6,6 +6,13 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-10-07
+
+- Under Governance TVDR-0052, remove only the unsupported
+  `disable-model-invocation` frontmatter field from `grill-me` and declare
+  the compatibility adaptation. Preserve the pinned router/interview, MIT
+  notices and existing explicit-only invocation policy.
+
 - Separate project introductions from retained template workflow guides during
   initialization: require both README language pairs, adapt removed-file/skill
   references, identity, badges and license wording, and map selected upstream

@@ -6,7 +6,7 @@ does not approve implementation, create a project commitment or authorize a
 cross-repository change.
 
 Derived projects do not require an `IDEAS.md` by default. Project-specific
-findings belong in that project's roadmap or Decision Record process. A
+findings belong in that project's roadmap or Decision Record process.
 A retrospective running in this source-template repository may capture a
 candidate under normal authorized in-scope edit rules. A derived-project
 transfer may enter only with exact cross-repository control-word authorization;
