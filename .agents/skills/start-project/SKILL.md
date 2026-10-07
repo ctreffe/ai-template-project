@@ -57,8 +57,7 @@ the AI Guarded Agent Template this may be a fresh local control-plane clone.
    Check only the local runtime needed for the first outcome using the
    "Required local runtime setup" section of PROJECT_SETUP.md. Reuse existing
    environments and answers; prepare any necessary setup with its applicable
-   installation authority. Defer optional tools and do not implicitly invoke
-   optimize-codex or expand the initial questionnaire.
+   installation authority. Defer optional tools and do not expand the initial questionnaire.
 4. Establish local input, temporary, material and output handling only as the
    repository guidance authorizes. Do not inspect, move, transmit or version a
    file merely because it exists.
@@ -73,11 +72,16 @@ the AI Guarded Agent Template this may be a fresh local control-plane clone.
    source-template `IDEAS.md`, the `create-local-project` skill and their
    template-only references. Retain `IDEAS.md` only when the maintainer
    deliberately establishes a project-local backlog. Do not rewrite an
-   existing active derived project through initialization cleanup, and do not
-   remove `create-secure-project` from a Guarded Agent control plane. If setup is
+   existing active derived project through initialization cleanup. If setup is
    incomplete, leave every reset and cleanup pending and report it.
 7. Run proportionate local validation and report changes, checks, limitations,
    remaining maintainer decisions and suitable commit metadata.
+
+After successful initialization, remove the inherited start-project skill
+definition and its adjacent invocation metadata from this working project.
+Retain setup documents and lineage as provenance, repair active skill links and
+catalogs, and continue through start-task. Do not remove this skill from a
+source-template maintenance checkout or perform cleanup before setup succeeds.
 
 Do not recreate the repository, configure a remote, create concrete Decision
 Records in a regular source template or perform protected Git actions unless
