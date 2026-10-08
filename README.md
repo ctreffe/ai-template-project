@@ -169,6 +169,7 @@ read only a matching detail section when needed.
 | [`reuse-fixes`](.agents/skills/reuse-fixes/SKILL.md) | Agent or explicit | Reuse this repository's confirmed fixes, retain concise prevention and ask only for missing authority or blocking decisions. |
 | [`start-project`](.agents/skills/start-project/SKILL.md) | Explicit | Initialize a new, uninitialized derived project from the retained setup guidance. |
 | [`review-project`](.agents/skills/review-project/SKILL.md) | Explicit | Produce a comprehensive neutral inventory of project state and evidence gaps. |
+| [`manage-external-storage`](.agents/skills/manage-external-storage/SKILL.md) | Explicit | Set up optional external storage, connect a host or check selected local files. |
 | [`sync-template`](.agents/skills/sync-template/SKILL.md) | Explicit | Compare a derived project with its verified source template and adopt selected updates while preserving project adaptations. |
 | [`check-consistency`](.agents/skills/check-consistency/SKILL.md) | Explicit | Diagnose internal contradictions between intent, roadmap, decisions, content and documentation; develop bounded options. |
 | [`perform-retrospective`](.agents/skills/perform-retrospective/SKILL.md) | Explicit | Review collaboration evidence and distinguish project findings from reusable template or family candidates. |
