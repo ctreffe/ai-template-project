@@ -4,7 +4,7 @@
 
 This document captures the current state of a project created from the AI Project Template.
 
-It is the primary handoff document for resuming work after a pause, continuing on another computer or starting a new AI-assisted session.
+This is the project-level intent and current-roadmap record. TASK_HANDOFF.md owns the bounded task continuation checkpoint.
 
 Replace the placeholders during project setup.
 
@@ -45,7 +45,7 @@ Initialization date:
 Last template harmonization:
 
 ```text
-<not yet performed | template version, commit hash and date>
+<not yet performed | date and TEMPLATE_SYNC.md record>
 ```
 
 Last collaboration retrospective:
@@ -62,7 +62,8 @@ Intentional template deviations and relevant Decision Records:
 
 Keep `PROJECT_SETUP.md` as initialization provenance. It describes the
 project's methodological roots; this section records its
-lifecycle status and the baselines used over time.
+initial lineage and lifecycle status. Later selective adoption belongs in
+TEMPLATE_SYNC.md, not a second baseline history here.
 
 During initialization, replace only the placeholders needed to record the six
 fundamental answers, the first useful outcome and its current safety boundary.
@@ -332,8 +333,17 @@ Remove or adapt entries that do not apply.
 
 # Notes for the Next Session
 
-Use this section to make restarting work easy.
+Use TASK_HANDOFF.md for the current task checkpoint. Keep only project-level unresolved choices and roadmap priorities here; do not duplicate its next-action list.
 
-```text
-<what to do next, what not to change yet, what needs review, what is blocked>
-```
+## State ownership and template synchronization
+
+| State | Authoritative owner |
+| --- | --- |
+| Project intent, constraints and current roadmap | PROJECT_CONTEXT.md |
+| Current bounded task checkpoint and next task action | TASK_HANDOFF.md |
+| Selected upstream comparison, adoption and deferred changes | [TEMPLATE_SYNC.md](TEMPLATE_SYNC.md), only when sync is selected |
+| Durable rationale and completed history | Decision Records and CHANGELOG.md |
+
+Keep the last-harmonization field above as a date/summary pointer to the sync
+record, not a second adoption ledger. Task completion does not close unrelated
+project or document work. Preserve context owned by another active objective.

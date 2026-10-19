@@ -6,13 +6,13 @@ description: Initialize an uninitialized working repository from its retained se
 # Start Project
 
 Verify that this is an uninitialized working repository created from a source
-template, not a source-template maintenance checkout or an active project. In
-the AI Guarded Agent Template this may be a fresh local control-plane clone.
+template, not a source-template maintenance checkout or an active project.
 
 1. Apply `AGENTS.md`, then read `PROJECT_SETUP.md` and only the setup,
    privacy, domain and repository guidance it directly requires. Inspect Git
    read-only and preserve all existing work.
-2. Before the normal questionnaire, ask one concise, unnumbered routing
+2. Reuse an explicit lean/grilling choice already supplied for this setup.
+   Otherwise, before the normal questionnaire, ask one concise, unnumbered routing
    question: continue with the lean path or use `grill-me` for detailed
    initialization and planning. Explain that the lean path is the normal
    default. Invoke `grill-me` only when the maintainer explicitly selects it;

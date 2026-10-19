@@ -1,27 +1,32 @@
-# Task Handoff
+# Task handoff
 
-- Date/status: 2026-10-19; completed the selected question-research source
-  extension under Governance TVDR-0059.
-- Outcome: deliberate named [investigate-question](.agents/skills/investigate-question/SKILL.md)
-  operationalizes one concrete question or a bounded preferably related set,
-  saves a [report](templates/RESEARCH_REPORT.md), individually assesses every
-  used source and optionally retains data with schema/provenance. Question IDs,
-  source IDs, inspected versions, dates, locators and reasons preserve later
-  traceability. New passes reference earlier assessments rather than replacing
-  their evidence baseline. Local ignored materials are the default.
-- Domain boundary: Generic project scope and maintainer-owned evidence/decisions preserved.
-- Evidence: this repository's Test-CodexSkill.ps1 passed for 1 new/changed
-  skill definitions using the existing PyYAML 6.0.3 environment; no installation.
-  Explicit-only YAML policies parsed, selected local link targets checked and
-  local report storage verified ignored by Git. Bilingual meaning and relevant
-  question/source/update source scenarios reviewed.
-- Limits: source/scenario evidence, not live research, scientific source-quality
-  qualification or a real document update. No runtime, operational, statistical,
-  rendered visual, whitespace or comprehensive family/milestone gates ran in
-  this step. Prior unchanged Docs synthetic HTML evidence remains separate.
-- Preservation: prior changes and staging retained. No existing derived project
-  (including agit-admin-guides), sensitive input, protected content, credentials,
-  Git metadata, version/tag or publication was changed. Cross-repository skill
-  writes used exact hash-checked target plans with narrow platform escalation.
-- Continuation: no selected source implementation work remains. Existing-project
-  adoption and later Git versioning require separate authority and fresh state.
+Status: completed
+Date: 2026-10-19
+
+## Outcome
+
+Source milestone v0.7.0 incorporates the accepted workflow optimization,
+selective adoption ledger, simpler external storage and unversioned research
+defaults. Research skills require explicit invocation. Existing harmonization
+and domain-specific boundaries are preserved.
+
+## Evidence and limits
+
+The Governance-owned complete family gate passed, including source links,
+README topology, common skill contracts, file policies and version metadata.
+Changed skills passed their owning validator; the storage helper passed 28
+synthetic assertions. Detailed coordinated evidence is retained by Governance
+in MILESTONE_2026-10-19.md and OPTIMIZATION_IMPLEMENTATION.md.
+
+The generic project lifecycle preserves maintainer choices and selective adoption.
+
+Real cloud convergence and independent agent trials were not performed.
+Derived projects and existing cloud files were neither inspected nor migrated.
+Generated artifacts, dependency libraries and local mappings stay unversioned.
+
+## Continuation
+
+No source implementation remains for this milestone. Future project adoption
+uses TEMPLATE_SYNC.md and its own scope. Verify live Git state and the annotated
+version tag before relying on release status; this handoff describes source
+acceptance and does not substitute for remote verification.

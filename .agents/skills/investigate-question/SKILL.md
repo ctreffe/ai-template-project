@@ -79,9 +79,13 @@ limits, stopping reason, follow-up and refresh conditions. Search-hit lists
 need not all become sources; preserve consequential exclusions and reasons.
 
 Choose a unique report/material ID after checking existing catalog metadata
-and the exact destination. Normally save to ignored
-`materials/local/research/<report-id>-<slug>.md`; use approved versioned or
-external material storage when selected. Register safe metadata in
+and the exact destination. Follow [research storage and reuse](../../../materials/README.md#research-storage-and-reuse):
+prefer the already configured, identity-checked and approved external materials
+research root; otherwise use ignored `materials/local/research/<report-id>-<slug>.md`.
+Reports and generated data stay unversioned by default. Reuse applicable access,
+write/provider authority and availability evidence; do not set up cloud storage,
+hydrate files or move older reports implicitly. Catalog the actual destination.
+When reusing prior evidence, resolve its ID and report missing artifacts as gaps. Register safe metadata in
 [materials/CATALOG.md](../../../materials/CATALOG.md) under the local
 [material contract](../../../materials/README.md). Never silently overwrite an
 earlier investigation. Refer across files as `<report-ID>/Q1` and

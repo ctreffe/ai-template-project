@@ -34,8 +34,34 @@ keep their provenance in the catalog.
 ## Question research
 
 Retain question research reports and optional datasets as separately cataloged
-materials, normally under ignored `local/research/`. Use the
+materials, under the storage rule below. Use the
 [report scaffold](../templates/RESEARCH_REPORT.md) for concrete questions,
 individual source assessments with evidence/reasons/dates, methods and limits.
 Keep prior report/source references when later assessments change. New data
 retain schema and record/field provenance; publication remains separate.
+
+## Research storage and reuse
+
+New research reports and generated data sources stay outside Git by default.
+Prefer `sync:<project-id>/materials/research/` only when that project's mapping,
+identity and approved write/provider scope already cover these materials and
+the destination is locally available. Use the selected project's existing
+catalog and ignored mapping; do not discover cloud folders or set up storage
+implicitly. This use of an approved mapping does not invoke a setup skill.
+
+Otherwise save under ignored `materials/local/research/` and catalog the actual
+local location and any availability limitation. A missing, mismatched,
+placeholder or unsupported external destination is not permission to hydrate,
+move or transmit. If an externally stored artifact is required for the task,
+report the gap rather than silently claiming successful external delivery.
+Do not move earlier artifacts automatically. Separate file-specific approval
+is needed to version research content; a cloud location is not Git or publication
+approval. Keep reports and generated datasets separately cataloged with stable
+IDs, provenance and references to prior assessments.
+
+Before later reuse, resolve the required artifact's ID and location, verify the
+relevant availability and access, and reuse still-current evidence from this
+task. Record a missing report as an evidence gap; never invent its contents or
+assessment. Check only needed artifacts, not every catalog or project. Use
+[SYNCHRONIZED_STORAGE.md](../SYNCHRONIZED_STORAGE.md) when setup or a mapping
+problem actually needs attention.

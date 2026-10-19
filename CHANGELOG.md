@@ -6,6 +6,19 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+No unreleased changes.
+
+## [0.7.0] - 2026-10-19
+
+- Distinguish upstream comparison, selected adoption and deferred changes in
+  TEMPLATE_SYNC.md; clarify project/task/document state ownership and reuse
+  supplied initialization choices. Simplify new approved external storage
+  to input/materials/optional output; retain legacy mappings. Keep research
+  unversioned, preferring an approved available cloud root with local fallback.
+
+- Remove the retired Guarded control-plane exception from decision routing
+  and initialization guidance; source-template decisions use Governance.
+
 - Under Governance TVDR-0059, provide explicit-only investigate-question for
   concrete questions or related sets, saved research reports, individually
   traceable source assessments and optional provenance-aware data. Preserve

@@ -1,6 +1,6 @@
 # External Files and Sources
 
-For synchronized external input roots and their mirrored access boundaries,
+For approved external originals in the simple synchronized input root,
 follow [SYNCHRONIZED_STORAGE.md](../SYNCHRONIZED_STORAGE.md). Mapping a root
 does not authorize its contents or unrelated synchronized folders.
 

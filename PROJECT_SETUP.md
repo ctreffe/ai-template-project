@@ -52,7 +52,8 @@ Adapt the retained guide rather than treating it as an immutable archive:
   inventory. Remove local links to deleted files or skills, including
   `create-local-project` and template-only `IDEAS.md`. Source-only capabilities
   may be explained without implying local availability. Retain a deliberately
-  established project backlog and applicable control-plane creation skills.
+  established project backlog. Retired source-template creation workflows
+  must not be retained as current project skills.
 - Remove inherited status, version, license and automation badges from both
   guides; their local targets would otherwise describe the project as the
   template. Preserve required attribution and license notices. Distinguish
@@ -423,3 +424,12 @@ before applying it. Verify the interpreter and a minimal relevant import or
 original command; defer optional tools without blocking unrelated work.
 
 Keep the generic project free of Python setup when its tasks do not need it.
+
+## Reuse supplied setup choices
+
+Reuse an already explicit lean/grilling selection; ask the routing question only
+when no choice was supplied. A known approved storage mapping needs no new
+setup questionnaire. New external areas use the simple layout in
+[SYNCHRONIZED_STORAGE.md](SYNCHRONIZED_STORAGE.md). Existing mappings and files
+are not migrated. [TEMPLATE_SYNC.md](TEMPLATE_SYNC.md) is used later for selected
+upstream adoption, not as another initialization questionnaire.
