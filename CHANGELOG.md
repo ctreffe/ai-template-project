@@ -6,6 +6,11 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Under Governance TVDR-0059, provide explicit-only investigate-question for
+  concrete questions or related sets, saved research reports, individually
+  traceable source assessments and optional provenance-aware data. Preserve
+  domain authority; no automatic existing-project adoption.
+
 - Add explicit-only manage-external-storage with domain guidance, a read-only
   selected-file helper and synthetic checks under Governance TVDR-0056.
   Ordinary task entry, initialization and handoff add no storage checks.

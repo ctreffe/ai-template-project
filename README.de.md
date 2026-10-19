@@ -177,6 +177,7 @@ lies bei Bedarf nur den passenden Detailabschnitt.
 | [`start-project`](.agents/skills/start-project/SKILL.md) | Explizit | Initialisiert ein neues, noch nicht eingerichtetes abgeleitetes Projekt anhand der erhaltenen Setup-Leitlinien. |
 | [`review-project`](.agents/skills/review-project/SKILL.md) | Explizit | Erstellt eine umfassende neutrale Bestandsaufnahme des Projektzustands und der Evidenzlücken. |
 | [`manage-external-storage`](.agents/skills/manage-external-storage/SKILL.md) | Explizit | Richtet optionalen externen Speicher ein, bindet einen Host an oder prüft ausgewählte lokale Dateien. |
+| [`investigate-question`](.agents/skills/investigate-question/SKILL.md) | Explizit | Recherchiert konkrete Projektfragen, bewertet jede verwendete Quelle und speichert einen [Recherchebericht](templates/RESEARCH_REPORT.md) mit optionalen Daten. |
 | [`sync-template`](.agents/skills/sync-template/SKILL.md) | Explizit | Vergleicht ein abgeleitetes Projekt mit seinem verifizierten Quelltemplate und übernimmt ausgewählte Änderungen unter Erhalt der Projektanpassungen. |
 | [`check-consistency`](.agents/skills/check-consistency/SKILL.md) | Explizit | Diagnostiziert interne Widersprüche zwischen Intention, Roadmap, Entscheidungen, Inhalten und Dokumentation und entwickelt abgegrenzte Optionen. |
 | [`perform-retrospective`](.agents/skills/perform-retrospective/SKILL.md) | Explizit | Wertet Zusammenarbeitsevidenz aus und trennt Projektbefunde von wiederverwendbaren Template- oder Familienkandidaten. |

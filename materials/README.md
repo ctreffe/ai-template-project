@@ -30,3 +30,12 @@ Materials are durable working foundations, not caches, disposable temporary
 files or final deliverables. Move files into a more specific maintained
 project location when that location communicates their lasting role better;
 keep their provenance in the catalog.
+
+## Question research
+
+Retain question research reports and optional datasets as separately cataloged
+materials, normally under ignored `local/research/`. Use the
+[report scaffold](../templates/RESEARCH_REPORT.md) for concrete questions,
+individual source assessments with evidence/reasons/dates, methods and limits.
+Keep prior report/source references when later assessments change. New data
+retain schema and record/field provenance; publication remains separate.
