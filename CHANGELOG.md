@@ -6,7 +6,9 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
-No unreleased changes.
+- Add explicit-only manage-restricted-storage under Governance TVDR-0065,
+  with project-owned setup choices, blank metadata/state templates and separate
+  protection evidence. Preserve input access, external-write and sharing rules.
 
 ## [0.7.0] - 2026-10-19
 

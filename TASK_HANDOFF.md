@@ -1,32 +1,42 @@
 # Task handoff
 
 Status: completed
-Date: 2026-10-19
+Date: 2026-10-25
 
 ## Outcome
 
-Source milestone v0.7.0 incorporates the accepted workflow optimization,
-selective adoption ledger, simpler external storage and unversioned research
-defaults. Research skills require explicit invocation. Existing harmonization
-and domain-specific boundaries are preserved.
+Implemented explicit-only manage-restricted-storage under Governance TVDR-0065,
+extending TVDR-0064's contract with a generic public implementation. The skill
+covers optional area setup, device connection, approved metadata maintenance
+and separately authorized invented-only protection checks. Project-owned
+execution, protection scope and metadata detail are initialization choices;
+later calls reuse them. Layout, catalog, configuration and protection have
+independent results, including failed/unverified/stale evidence.
+
+Added RESTRICTED_STORAGE.md, blank catalog/local-state templates, ignored
+populated-state rule, repository/storage guidance, deliberate routing, bilingual
+discovery and changelog. Only readable metadata is a registered material;
+referenced files remain inaccessible. Generic project tools and local authority
+remain intact. Ordinary project/task entry gains no interview or storage check.
 
 ## Evidence and limits
 
-The Governance-owned complete family gate passed, including source links,
-README topology, common skill contracts, file policies and version metadata.
-Changed skills passed their owning validator; the storage helper passed 28
-synthetic assertions. Detailed coordinated evidence is retained by Governance
-in MILESTONE_2026-10-19.md and OPTIMIZATION_IMPLEMENTATION.md.
+The owning skill wrapper passed with the existing Governance interpreter and
+pinned PyYAML 6.0.3, without installation. Eleven new local links, four Markdown
+tables and explicit-only policy parsing passed. The proposed local state and
+catalog destinations are ignored. Governance's selected topology check passed
+for Governance, Analysis, Project and Dev.
 
-The generic project lifecycle preserves maintainer choices and selective adoption.
+Source review covered setup/reuse, untrusted metadata, reported changes and
+unknown/failed/stale protection. These checks are not an independent agent run
+or live enforcement qualification. No canary, real source inspection, actual
+area/profile/provider setup, environment, ACL or credential work occurred.
+Full milestone/family checks, domain execution and whitespace checks were not
+selected. Prior milestone evidence remains in Governance MILESTONE_2026-10-19.md.
 
-Real cloud convergence and independent agent trials were not performed.
-Derived projects and existing cloud files were neither inspected nor migrated.
-Generated artifacts, dependency libraries and local mappings stay unversioned.
+## Continuation and boundary
 
-## Continuation
-
-No source implementation remains for this milestone. Future project adoption
-uses TEMPLATE_SYNC.md and its own scope. Verify live Git state and the annotated
-version tag before relying on release status; this handoff describes source
-acceptance and does not substitute for remote verification.
+No selected source implementation remains. Adapter qualification and deliberate
+existing-project adoption remain local tasks; no derived project was changed.
+No staging, commit, push, tag, version bump, release or publication is included.
+Reconstruct versioning from live Git state rather than this completed checkpoint.

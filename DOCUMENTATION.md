@@ -60,6 +60,12 @@ The current-state handoff document. It describes where the project stands now.
 preparation plus explicit initialization, neutral review, source-template
 synchronization, internal consistency and retrospective workflows.
 
+Use `manage-restricted-storage` deliberately for optional restricted-area setup,
+approved metadata maintenance and separate protection evidence. The
+[guide](RESTRICTED_STORAGE.md), [catalog](templates/RESTRICTED_CATALOG.md) and
+[state example](templates/RESTRICTED_STORAGE.local.example.md) retain project
+choices without granting source access or adding routine storage checks.
+
 `TASK_HANDOFF.md` is the compact versioned handoff between bounded tasks and
 devices. It does not duplicate project history or full session output.
 

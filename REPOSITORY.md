@@ -121,6 +121,12 @@ Machine-specific external-path mappings belong only in ignored
 `materials/PATHS.local.md`. Caches, disposable files and final outputs are not
 project materials.
 
+For optional [restricted storage](RESTRICTED_STORAGE.md), register only the
+approved readable metadata artifact. Its referenced files remain unavailable;
+catalog entries, device mappings and protection checks grant no source access.
+Retain private descriptions and roots in approved ignored locations, with one
+authoritative inventory instead of competing copies.
+
 # Raw Inputs, Reviewed Derivatives and Generated Outputs
 
 Projects should distinguish raw inputs, reviewed derivatives and generated outputs when that distinction matters.

@@ -27,6 +27,7 @@ __pycache__/
 .codex-output/
 TROUBLESHOOTING.local.md
 RETROSPECTIVE_PATHS.local.md
+RESTRICTED_STORAGE.local.md
 
 # Temporary files
 *.tmp

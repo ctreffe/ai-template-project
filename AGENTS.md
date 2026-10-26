@@ -61,6 +61,9 @@ Resident contract.
 - Invoke `investigate-question` deliberately by name for concrete project
   questions and a saved report with individual source assessments; ordinary
   entry/handoff does not trigger research or broaden local access.
+- Invoke `manage-restricted-storage` deliberately for optional area setup,
+  approved metadata maintenance or invented-only protection checks. A readable
+  catalog or saved profile grants no access to its referenced sources.
 
 ## Validation
 
