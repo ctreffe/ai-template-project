@@ -1,23 +1,26 @@
 # AI Project Template Idea Backlog
 
-This is the lightweight intake for reusable improvements to this source
-template. It is separate from every derived-project roadmap. Capturing an idea
-does not approve implementation, create a project commitment or authorize a
-cross-repository change.
+This source-template backlog retains reusable candidates, separately from
+roadmap commitments and durable decisions. Use `record-idea` for a clear request
+to retain an existing idea; explicit `perform-retrospective` jointly develops
+improvements from an agreed period. Capture does not approve implementation.
 
-Derived projects do not require an `IDEAS.md` by default. Project-specific
-findings belong in that project's roadmap or Decision Record process.
-A retrospective running in this source-template repository may capture a
-candidate under normal authorized in-scope edit rules. A derived-project
-transfer may enter only with exact cross-repository control-word authorization;
-otherwise it remains a `Pending Idea Transfer`.
+New ordinary derived projects receive their own empty project backlog from
+`templates/IDEAS.md`, preserving project-owned ideas and local edits. They never
+inherit these source-template entries. Existing projects adopt the workflow only
+through a selected project-owned task. Cross-repository writes require exact
+destination/action control-word authorization; otherwise return a `Pending Idea
+Transfer`. Keep one authoritative owner and stable repository-local IDs.
+
+Preserve project intent, local authority and source sensitivity.
 
 ## Status Model
 
-- **Captured** — retained for later review; no implementation decision exists.
+- **Captured** — retained without an implementation decision.
 - **Exploring** — alternatives, evidence or constraints are being assessed.
-- **Promoted** — accepted into an identified roadmap or decision process.
-- **Deferred** — retained but intentionally inactive.
+- **Promoted** — selected into a linked roadmap or decision process.
+- **Transferred** — the identified destination owns the idea; retain a redirect.
+- **Deferred** — retained but deliberately inactive.
 - **Rejected** — closed with a short rationale.
 
 ## Entry Format
@@ -25,17 +28,16 @@ otherwise it remains a `Pending Idea Transfer`.
 ```markdown
 ### IDEA-NNNN: Short title
 
-- **Status:** Captured | Exploring | Promoted | Deferred | Rejected
-- **Source:** Optional approved project or template evidence
+- **Status:** Captured | Exploring | Promoted | Transferred | Deferred | Rejected
 - **Opportunity:** Problem or useful outcome
-- **Recurrence:** Why this may matter beyond one project
-- **Reusable elements:** Existing patterns or artifacts to assess
-- **Benefit:** Expected value
-- **Risk:** Adoption or transfer risk
-- **Boundaries:** Access, domain and non-goals
+- **Potential destination:** This template, Governance, selected project or unresolved
 - **Next decision:** Smallest maintainer-owned decision
-- **References:** Optional durable evidence or promoted destination
 ```
+
+Add sources, evidence, reusable elements, benefit, risks, boundaries and references
+when material. Retrospective-derived candidates retain their reviewed period,
+sanitized evidence and recurrence/limits; supplied ideas require no invented
+retrospective. Existing detailed entries remain valid.
 
 ## Ideas
 

@@ -50,9 +50,12 @@ Adapt the retained guide rather than treating it as an immutable archive:
   they are not presented as ongoing project tasks.
 - Align skill catalogs, file descriptions and contents with the final retained
   inventory. Remove local links to deleted files or skills, including
-  `create-local-project` and template-only `IDEAS.md`. Source-only capabilities
-  may be explained without implying local availability. Retain a deliberately
-  established project backlog. Retired source-template creation workflows
+  `create-local-project`. Source-only capabilities may be explained without
+  implying local availability. Replace only verified inherited template idea
+  entries with the empty [project backlog scaffold](templates/IDEAS.md), adapted
+  to project identity. Preserve project-owned ideas and local edits; resolve
+  uncertain ownership before cleanup. Keep `IDEAS.md` and `record-idea` for
+  ongoing capture, separate from roadmap and Decision Records. Retired source-template creation workflows
   must not be retained as current project skills.
 - Remove inherited status, version, license and automation badges from both
   guides; their local targets would otherwise describe the project as the

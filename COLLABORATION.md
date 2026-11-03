@@ -123,3 +123,20 @@ A successful project has clear intent, reproducible evidence, useful current
 context, documented durable decisions, reviewable outputs, transparent
 limitations, proportionate validation and a clear next step or completion
 state—without depending on private conversation history.
+
+## Ideas and Reflection
+
+Use `IDEAS.md` for possibilities without roadmap priority or timing commitments;
+the roadmap owns selected planned work and Decision Records own durable choices.
+`record-idea` may route implicitly when the maintainer clearly asks to retain or
+update an idea; discussion alone does not authorize capture. Keep one owning
+entry and stable local IDs. Capture does not approve implementation or policy;
+an idea may be selected immediately or revisited later.
+
+Explicit `perform-retrospective`, where available, jointly develops improvements
+from an agreed project period; it may conclude with no action. Governance's
+explicit `synthesize-ideas` compares selected authorized cross-project evidence.
+Use `record-idea` for selected capture. Cross-repository writes still need exact
+destination/action control-word authority and reviewed transferable evidence;
+otherwise return a Pending Idea Transfer. Preserve local privacy, source,
+security, recipient and publication boundaries.

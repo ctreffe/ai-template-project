@@ -1,42 +1,45 @@
 # Task handoff
 
 Status: completed
-Date: 2026-10-25
+Date: 2026-11-03
 
 ## Outcome
 
-Implemented explicit-only manage-restricted-storage under Governance TVDR-0065,
-extending TVDR-0064's contract with a generic public implementation. The skill
-covers optional area setup, device connection, approved metadata maintenance
-and separately authorized invented-only protection checks. Project-owned
-execution, protection scope and metadata detail are initialization choices;
-later calls reuse them. Layout, catalog, configuration and protection have
-independent results, including failed/unverified/stale evidence.
+Adopted Governance TVDR-0070 for this source template: implicit-capable
+record-idea captures existing ideas on a clear retention request; explicit
+perform-retrospective jointly develops improvements from an agreed period.
+Intake owns stable IDs, one authoritative owner, verified destinations and
+authorized/pending cross-repository transfers. Capture does not approve work.
 
-Added RESTRICTED_STORAGE.md, blank catalog/local-state templates, ignored
-populated-state rule, repository/storage guidance, deliberate routing, bilingual
-discovery and changelog. Only readable metadata is a registered material;
-referenced files remain inaccessible. Generic project tools and local authority
-remain intact. Ordinary project/task entry gains no interview or storage check.
+Added an empty templates/IDEAS.md project scaffold. Successful initialization
+replaces only verified inherited template entries and preserves authored project
+ideas/local edits. Selected sync can adopt a missing project backlog without
+importing template ideas or rerunning initialization. Existing projects are
+outside this rollout. Updated routing, collaboration, bilingual guidance, path
+example and changelog; existing source-template idea entries are unchanged.
+
+Generic project intent, sensitivity and local decision authority remain intact.
 
 ## Evidence and limits
 
-The owning skill wrapper passed with the existing Governance interpreter and
-pinned PyYAML 6.0.3, without installation. Eleven new local links, four Markdown
-tables and explicit-only policy parsing passed. The proposed local state and
-catalog destinations are ignored. Governance's selected topology check passed
-for Governance, Analysis, Project and Dev.
+All four changed/new skills passed this repository's Test-CodexSkill.ps1 wrapper
+using the existing managed Governance interpreter and pinned PyYAML 6.0.3;
+no installation. Governance's focused contracts and skill topology passed for
+this source and all selected sources on PowerShell 7 and Windows PowerShell 5.1.
+The focused contract check includes ten safety/intent omission cases.
+Git-baseline comparison confirms this source's idea-history section is intact.
+Targeted Markdown validation included all affected source paths; its coordinated
+result is 600 targets/93 files with two out-of-scope anchors unverified.
+Governance IDEA_WORKFLOW.md owns the impact matrix and detailed source review.
 
-Source review covered setup/reuse, untrusted metadata, reported changes and
-unknown/failed/stale protection. These checks are not an independent agent run
-or live enforcement qualification. No canary, real source inspection, actual
-area/profile/provider setup, environment, ACL or credential work occurred.
-Full milestone/family checks, domain execution and whitespace checks were not
-selected. Prior milestone evidence remains in Governance MILESTONE_2026-10-19.md.
+No live agent trial, retrospective session, derived initialization or real
+idea transfer was performed. Domain runtime/data/render checks are not
+applicable. Full family, whitespace, ordinary-commit, release and milestone
+gates were not run. No unrelated source work or protected Git action is included.
 
-## Continuation and boundary
+## Continuation and versioning boundary
 
-No selected source implementation remains. Adapter qualification and deliberate
-existing-project adoption remain local tasks; no derived project was changed.
-No staging, commit, push, tag, version bump, release or publication is included.
-Reconstruct versioning from live Git state rather than this completed checkpoint.
+No implementation remains for this selected source rollout. Existing-project
+adoption requires a selected project-owned task/sync; source availability is not
+behavioral qualification. Later versioning decisions use live Git state and
+repository/action-specific authority.

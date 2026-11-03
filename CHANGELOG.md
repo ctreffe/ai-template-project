@@ -6,6 +6,12 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Adopt TVDR-0070: add implicit-capable record-idea, separate idea capture from
+  collaborative retrospective discovery, and provide empty project-owned idea
+  backlogs at successful initialization. Preserve existing ideas, local domain
+  boundaries and exact cross-repository transfer authority; existing projects
+  require selected adoption.
+
 - Add explicit-only manage-restricted-storage under Governance TVDR-0065,
   with project-owned setup choices, blank metadata/state templates and separate
   protection evidence. Preserve input access, external-write and sharing rules.

@@ -68,10 +68,12 @@ template, not a source-template maintenance checkout or an active project.
    source-template maintenance history in `CHANGELOG.md` with a project-owned
    `Unreleased` changelog and replace `TASK_HANDOFF.md` with a project-owned
    initialization handoff. Record source-template lineage only in
-   `PROJECT_CONTEXT.md` and retained setup documentation. Remove the inherited
-   source-template `IDEAS.md`, the `create-local-project` skill and their
-   template-only references. Retain `IDEAS.md` only when the maintainer
-   deliberately establishes a project-local backlog. Do not rewrite an
+   `PROJECT_CONTEXT.md` and retained setup documentation. Replace only verified
+   inherited source-template `IDEAS.md` content with [the empty project scaffold](../../../templates/IDEAS.md),
+   adapted to project identity. Preserve project-owned ideas and local edits;
+   resolve uncertain ownership before cleanup. Never import template entries
+   into the project-local backlog. Remove the `create-local-project` skill and
+   its template-only references; keep `record-idea` available for local capture. Do not rewrite an
    existing active derived project through initialization cleanup. If setup is
    incomplete, leave every reset and cleanup pending and report it.
 7. Run proportionate local validation and report changes, checks, limitations,
