@@ -23,28 +23,20 @@ Repeat per-area sections only when necessary; this file grants no source access.
 | --- | --- | --- | --- |
 | `<device>` | `<ID>` | `<path; never probe>` | `<provenance>` |
 
-## Configuration and evidence
+## Profile recovery and status
 
-- Actual route, runtime/backend/version: `<identity or unknown>`
-- Approved config location and reviewed diff: `<scope; exclude secrets>`
-- Intended profile and observed selection: `<facts or unknown>`
-- Saved settings result: `<configured / blocked / not configured>`
-- Activation evidence and limitations: `<facts; not a behavior pass>`
-
-Append dated attempts, retaining failures and stale results. Each plan records
-the exact approved invented targets/control, operation/route expectations,
-resource/stop limits, applicable exception authority and owned-artifact cleanup.
-
-| Attempt / date | Route / operation / runtime | Allowed baseline | Expected and actual | State | Provenance / evidence limits |
-| --- | --- | --- | --- | --- | --- |
-| `<ID/date>` | `<scope>` | `<valid or inconclusive>` | `<outcomes>` | `<unverified / verified / failed / stale>` | `<direct check or reported evidence>` |
-
-- Cleanup, retained canaries and stale-evidence reasons: `<facts>`
+- Approved local config path and original bytes backup or prior absence: `<pointer or absent>`
+- Original Desktop mode and affected defaults: `<values needed to restore>`
+- Independent rollback route if needed: `<owner and exact scope>`
+- Applied profile, intended denies, safe roots and network rule: `<approved local scope>`
+- Post-restart activation: `<date, marker and active scope confirmed | incomplete | failed | stale>`
+- Rollback, restart and restored scope: `<date and result | pending>`
+- Concrete gaps or Governance evidence: `<safe pointer if relevant>`
 
 ## Independent results
 
 - Layout: `<planned / initialized / blocked>`
 - Catalog: `<planned / initialized / updated / blocked>`
 - Configuration: `<not configured / configured / blocked>`
-- Protection: `<verified scope / incomplete / failed / stale; required gaps>`
+- Active scope: `<confirmed | incomplete | failed | stale>`
 - Next agreed action: `<bounded action or none>`

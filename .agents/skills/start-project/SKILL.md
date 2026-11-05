@@ -64,7 +64,16 @@ template, not a source-template maintenance checkout or an active project.
 5. Adapt `AGENTS.md` only for concrete commands, layout or validation
    differences. Retain `PROJECT_SETUP.md` and domain setup documents as the
    initialization method; no separate initialization prompt is retained.
-6. After successful normal-project initialization, replace the inherited
+6. After ordinary setup and before initialization cleanup, identify the documented
+   closed folders from the template layout or tracked marker metadata. Do not
+   inspect the folders. For projects with closed folders, follow the
+   [standard initialization profile](../manage-restricted-storage/SKILL.md#standard-profile-during-initialization).
+   Record the pending state before the Desktop restart. On resume, reuse the saved
+   profile and recovery state. Leave initialization and cleanup pending if the
+   profile step is unavailable, blocked or awaiting confirmation. Continue only
+   after the maintainer fully restarts Desktop, selects the profile in the intended
+   local chat, and a fresh ordinary tool turn confirms its scope.
+7. After successful normal-project initialization, replace the inherited
    source-template maintenance history in `CHANGELOG.md` with a project-owned
    `Unreleased` changelog and replace `TASK_HANDOFF.md` with a project-owned
    initialization handoff. Record source-template lineage only in
@@ -76,7 +85,7 @@ template, not a source-template maintenance checkout or an active project.
    its template-only references; keep `record-idea` available for local capture. Do not rewrite an
    existing active derived project through initialization cleanup. If setup is
    incomplete, leave every reset and cleanup pending and report it.
-7. Run proportionate local validation and report changes, checks, limitations,
+8. Run proportionate local validation and report changes, checks, limitations,
    remaining maintainer decisions and suitable commit metadata.
 
 After successful initialization, remove the inherited start-project skill

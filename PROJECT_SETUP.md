@@ -87,6 +87,19 @@ suggestion; a suggestion is not consent. The maintainer may decline or stop
 grilling and return to the lean path, and neither path changes any access,
 versioning, transmission, publication or protected-action authority.
 
+For new projects, command networking is expected by default. When an approved
+project-local permission profile is part of setup, enable command networking
+unless the maintainer specifies an offline or restricted setup or a governing
+rule requires one. Preserve existing approved network settings. Source access,
+transmission and publication remain separate choices.
+
+For projects with documented closed folders, the final `start-project` step
+runs [manage-restricted-storage](.agents/skills/manage-restricted-storage/SKILL.md)
+for the standard project-local profile. Reuse the existing setup answers. The
+maintainer fully restarts Codex Desktop and selects the profile in the local
+project chat. Confirm the active scope in a fresh ordinary turn before
+completing initialization. Keep the checkpoint and resume after the restart.
+
 `$start-project` begins with no more than six fundamental maintainer
 questions. Each numbered item is one coherent decision, not a container for a
 hidden questionnaire:

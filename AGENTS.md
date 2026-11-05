@@ -62,7 +62,7 @@ Resident contract.
   questions and a saved report with individual source assessments; ordinary
   entry/handoff does not trigger research or broaden local access.
 - Invoke `manage-restricted-storage` deliberately for optional area setup,
-  approved metadata maintenance or invented-only protection checks. A readable
+  approved metadata maintenance or selected project profile work. A readable
   catalog or saved profile grants no access to its referenced sources.
 
 - Use `record-idea` for a clear request to retain or update an idea; discussion

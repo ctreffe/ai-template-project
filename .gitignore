@@ -28,6 +28,8 @@ __pycache__/
 TROUBLESHOOTING.local.md
 RETROSPECTIVE_PATHS.local.md
 RESTRICTED_STORAGE.local.md
+/.codex/config.toml
+/.codex/restricted-storage.original.toml
 
 # Temporary files
 *.tmp

@@ -1,6 +1,6 @@
 ---
 name: manage-restricted-storage
-description: Set up an optional restricted area, connect a device, maintain approved source metadata or assess protection using invented canaries. Use on deliberate invocation; ordinary project tasks do not start this workflow.
+description: Set up an optional restricted area, connect a device, maintain approved source metadata or configure and confirm a project protection profile. Use on deliberate invocation or from start-project's final profile step.
 ---
 
 # Manage Restricted Storage
@@ -31,8 +31,8 @@ Do not pass restricted paths to ordinary storage availability/hash helpers.
    Use only approved metadata. Source roots are maintainer-supplied descriptions,
    not permission to test existence, inspect parents or resolve referenced files.
 3. Present the concrete layout/configuration proposal. Reuse action authority
-   already given; ask only for missing outside-write, configuration, provider
-   or canary authority. Create approved empty locations only. The maintainer
+   already given; ask only for missing outside-write, configuration or
+   provider authority. Create approved empty locations only. The maintainer
    establishes safe scope for an existing area; never inventory it, move its
    contents or change unrelated settings as part of setup.
 4. Reuse a suitable approved inventory or initialize the
@@ -41,11 +41,10 @@ Do not pass restricted paths to ordinary storage availability/hash helpers.
    only the readable catalog artifact in materials/CATALOG.md, with one actual
    location; inaccessible files are not readable materials. Preserve source IDs
    and avoid competing inventories.
-5. For selected Codex configuration or testing, load the
-   [conditional protection procedure](references/codex-permissions.md).
-   Saved settings, observed selection and effective denial are separate evidence.
-   Report approved layout/catalog completion even if protection remains failed
-   or unverified; do not claim technical protection in that state.
+5. For selected Codex configuration, activation or rollback, follow the
+   [profile procedure](references/codex-permissions.md). Record recoverable
+   starting state before editing. A full Desktop restart precedes each short
+   verification. Layout and catalog completion are separate results.
 
 ## Continue on a device or maintain metadata
 
@@ -69,19 +68,21 @@ independent choices; catalog access authorizes no transfer or protected work.
 
 ## Verify a selected protection scope
 
-Agree exact wholly invented targets/control, routes, operations, expected
-results, limits and cleanup before probes. Closed-zone rules still apply.
-Never test on real sources or enumerate a confidential parent. A valid allowed
-control and expected marker are necessary; unrelated errors are inconclusive.
+After the maintainer restarts Desktop, confirm the profile marker, effective
+denies and intended project workspace scope in a fresh ordinary tool turn.
+Report configuration, active scope and recovery separately. Record the result
+in the approved ignored state. If a deny or root is missing, report the gap.
+Refer concrete doubts about enforcement or ordinary work to Governance for
+separately approved invented-only testing.
 
-Retain dated attempts and failures. Record unverified/inconclusive, configured,
-verified for a named route/operation, failed, or stale. Unexpected access where
-denial was required is a failed protection check. A creation deny proves no
-read/list deny. CLI evidence does not establish app, connector, browser or
-approved-escalation isolation. Do not weaken rules or escalate a probe to turn
-a denial into a successful access.
+## Standard profile during initialization
 
-Return layout, catalog, configuration and protection results separately, with
-safe evidence pointers and unresolved required checks. Private roots and source
-descriptions stay out of shared handoffs. No successful probe grants source
-access, execution, installation, Git or publication authority.
+When explicitly invoked `start-project` routes here, use the
+[profile procedure](references/codex-permissions.md) for the documented
+closed folders only. Reuse setup choices and skip optional area setup, new
+catalogs and behavior probes. Verify that local config and recovery files
+are ignored and untracked. An exact original config copy can use
+`.codex/restricted-storage.original.toml`. Record the pending restart and
+intended profile with the recoverable original state. If already prepared, continue from that
+state without rewriting the profile or its original backup. Return the
+post-restart active-scope result to `start-project`.

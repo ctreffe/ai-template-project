@@ -1,45 +1,43 @@
 # Task handoff
 
 Status: completed
-Date: 2026-11-03
+Date: 2026-11-04
 
 ## Outcome
 
-Adopted Governance TVDR-0070 for this source template: implicit-capable
-record-idea captures existing ideas on a clear retention request; explicit
-perform-retrospective jointly develops improvements from an agreed period.
-Intake owns stable IDs, one authoritative owner, verified destinations and
-authorized/pending cross-repository transfers. Capture does not approve work.
+Extend the existing explicit-only manage-restricted-storage workflow under
+Governance TVDR-0072 with actual workspace-root review, guarded configuration
+changes, observed ordinary Desktop activation and safe project controls before
+and after independent canary read/list/create checks. A substitute writable
+output/task root does not qualify intended project writes.
 
-Added an empty templates/IDEAS.md project scaffold. Successful initialization
-replaces only verified inherited template entries and preserves authored project
-ideas/local edits. Selected sync can adopt a missing project backlog without
-importing template ideas or rerunning initialization. Existing projects are
-outside this rollout. Updated routing, collaboration, bilingual guidance, path
-example and changelog; existing source-template idea entries are unchanged.
+Changed only the skill entry, conditional adapter, blank local-state example,
+restricted-storage guide, changelog and this handoff. Saved configuration,
+selection, project usability and protection remain separate outcomes. No live
+profile or populated catalog is installed by source adoption.
 
-Generic project intent, sensitivity and local decision authority remain intact.
+Generic project and sensitivity choices remain project-owned.
+The earlier TVDR-0070 idea workflow and existing authored ideas are preserved.
 
 ## Evidence and limits
 
-All four changed/new skills passed this repository's Test-CodexSkill.ps1 wrapper
-using the existing managed Governance interpreter and pinned PyYAML 6.0.3;
-no installation. Governance's focused contracts and skill topology passed for
-this source and all selected sources on PowerShell 7 and Windows PowerShell 5.1.
-The focused contract check includes ten safety/intent omission cases.
-Git-baseline comparison confirms this source's idea-history section is intact.
-Targeted Markdown validation included all affected source paths; its coordinated
-result is 600 targets/93 files with two out-of-scope anchors unverified.
-Governance IDEA_WORKFLOW.md owns the impact matrix and detailed source review.
-
-No live agent trial, retrospective session, derived initialization or real
-idea transfer was performed. Domain runtime/data/render checks are not
-applicable. Full family, whitespace, ordinary-commit, release and milestone
-gates were not run. No unrelated source work or protected Git action is included.
+- This repository's scripts/Test-CodexSkill.ps1 passed for the changed skill,
+  using its supported PythonPath argument with the existing managed Governance
+  interpreter and pinned PyYAML 6.0.3; no installation.
+- 11 focused local Markdown references resolve; explicit-only invocation
+  policy is unchanged. Reviewed missing project roots, stale active selection,
+  separate privileged fixture setup, partial failures and before/deny/after use.
+- Governance's RESTRICTED_STORAGE_PROFILE_INTEGRATION.md records the separate
+  selected Finance correction and actual ordinary-tool result. That result is
+  not behavioral qualification of this source or every derived project.
+- No real data, provider/credential, R/render/application run, protected worker,
+  Git write, installation or release. Unchanged unit suites and full family,
+  milestone and whitespace gates were not run for this bounded source change.
 
 ## Continuation and versioning boundary
 
-No implementation remains for this selected source rollout. Existing-project
-adoption requires a selected project-owned task/sync; source availability is not
-behavioral qualification. Later versioning decisions use live Git state and
-repository/action-specific authority.
+TVDR-0074 replaces routine local canary checks with short profile scope checks
+after a full Desktop restart for activation and rollback. Existing projects
+adopt it through a selected local task. Concrete behavior questions route to
+Governance. Guarded adaptation remains separately scoped.
+Later versioning decisions use live Git state and exact action authority.

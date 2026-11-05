@@ -6,6 +6,15 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Add the standard closed-folder profile to the end of project initialization
+  under TVDR-0076. Resume after the Desktop restart and confirm the active
+  scope before initialization cleanup.
+
+- Extend manage-restricted-storage under TVDR-0072 with reviewed workspace roots,
+  guarded profile changes, actual ordinary Desktop activation and per-operation
+  project controls before/after canary denials. Retain separate usability,
+  selection and protection evidence; no live profile or project adoption.
+
 - Adopt TVDR-0070: add implicit-capable record-idea, separate idea capture from
   collaborative retrospective discovery, and provide empty project-owned idea
   backlogs at successful initialization. Preserve existing ideas, local domain

@@ -1,65 +1,73 @@
-# Conditional Codex protection procedure
+# Codex permission profiles and ordinary Desktop verification
 
-Load this reference only for a selected configuration or invented-only test.
-It describes a procedure; it is not evidence that an app/build enforces a deny.
+Use only for the selected project and approved profile changes.
 
-## Establish and configure the selected route
+## Capture the original state
 
-Identify the actual permitted runtime, platform/backend, required operations
-and current profile selection. Use narrow approved program/configuration
-metadata; avoid general environment dumps, logs, session stores and secrets.
-Unknown selection or baseline remains an explicit gap.
+Record the original Desktop mode and retain the exact approved project-local
+`.codex/config.toml` bytes or its prior absence. Record any affected default
+needed to restore it. Keep the recovery record in approved ignored local
+storage. When a change could prevent startup or tool access, establish a
+bounded independent rollback before editing. It restores only the owned change
+and stops on unexpected concurrent edits.
 
-Prepare a minimal configuration diff using the project's existing approved
-access/network baseline and maintainer-supplied exact denied roots. Do not paste
-a broad default profile, discover source paths or overwrite unrelated settings.
-Confirm private paths/settings are excluded from Git before populating them.
-Apply only authorized changes; no installation, ACL or global-policy change is
-an incidental setup action.
+## Prepare the project profile
 
-Named permission profiles and older sandbox settings have selection/precedence
-constraints. A stored default alone does not establish what the client uses.
-Verify relevant current documentation before configuration work. Never remove
-an old setting or alter managed requirements without exact scope and authority.
+Use the full repository slug followed by `-restricted`. Extend the approved
+baseline and preserve existing grants, denies and unrelated settings. Resolve
+the three standard denies from the known project root without inspecting the
+closed zones. Add only explicitly named and approved external protected paths.
+Keep catalogs and ordinary working folders outside the denied paths.
 
-## Produce route-specific evidence
+A new ordinary project's profile enables command networking unless the
+maintainer specifies a restriction or higher rules require one. Preserve
+approved network rules on existing profiles. Transmission and access require
+their own authority. Preserve the current default unless a change to it is
+approved. This example shows the profile definition to adapt.
 
-Agree an isolated invented-only tree/control, expected results, limits and
-owned-artifact cleanup. An exception to a closed zone must explicitly cover the
-exact invented path. No real source, source-derived fixture or confidential
-parent listing belongs in this test.
+```toml
+[permissions.example-repository-restricted]
+extends = ":workspace"
 
-Verify the installed binary's help before composing a CLI sandbox command.
---permission-profile/-P selects a permission profile; --profile/-p selects a
-configuration layer. Preserve applicable managed requirements in the tested
-route. A diagnostic route omitting them does not qualify their scope.
+[permissions.example-repository-restricted.filesystem]
+'D:/APPROVED-PROJECT/input/intake' = "deny"
+'D:/APPROVED-PROJECT/input/restricted' = "deny"
+'D:/APPROVED-PROJECT/temp/restricted' = "deny"
 
-Use a valid allowed baseline and known marker. Exercise read, list and create
-independently through the actual route. Keep fixed outcomes, not uncontrolled
-diagnostics. An unexpected successful access is a failure; a denied create does
-not prove denied reads. Missing markers/control failures are inconclusive.
-Never escalate or switch routes to bypass the restriction under test. Clean up
-only exact owned invented artifacts and record retained resources.
+[permissions.example-repository-restricted.network]
+enabled = true
+```
 
-Check the desktop app separately when it is required. A restart, presumed menu,
-profile label or passing CLI probe cannot qualify app enforcement. No desktop
-repair is promised by this procedure.
+Check that the intended safe project write root is covered. If it is missing,
+use the profile's `workspace_roots` for the exact approved project root. A
+working directory alone cannot grant writes. Review any conflicting overrides
+and managed restrictions before applying the approved change.
 
-## Boundaries and freshness
+## Restart and confirm
 
-Local command profiles do not cover every connector, MCP, browser, computer-use,
-cloud or approved-escalation route. Native Windows managed deny_read alone does
-not cover shell subprocess reads. Keep those routes explicit in requirements.
-Reassess affected evidence after runtime, session, profile, path, fallback or
-tool changes. Keep failed attempts and distinguish stale evidence from a current
-pass. Protected work and disclosure remain under the project's own authority.
+1. Save the approved change. Ask the maintainer to fully quit and reopen
+   Desktop, then select the named profile in the intended local chat if needed.
+2. In a fresh ordinary, non-escalated tool turn, check the profile marker and
+   the supplied effective permission scope against the intended denies and
+   safe project roots. Check the declared network rule when available. Record
+   the date and active scope, or the exact gap. This confirms settings in effect for the observed route. Actual denial and ordinary
+   operations require separate behavior evidence.
+3. For rollback, restore the original config bytes or prior absence while
+   preserving concurrent edits. The maintainer fully restarts Desktop, then
+   restores the original mode if needed. Confirm the original configuration
+   and effective scope in a fresh ordinary tool turn after that restart.
+
+Routine checks use no canaries, network requests, preview or Git operations.
+Bring specific enforcement or ordinary-work doubts to Governance for approved
+invented-only tests. Keep failed or stale results visible. Local command scope
+gives no assurance for other tool routes or approved escalation.
 
 ## Official sources
 
-Checked 2026-10-25; refresh affected guidance before future configuration work:
+Checked 2026-11-04; verify relevant changes before later configuration work:
 
-- [Permission profiles](https://learn.chatgpt.com/docs/permissions)
+- [Permission profiles and workspace roots](https://learn.chatgpt.com/docs/permissions)
+- [Sandbox and Desktop permissions control](https://learn.chatgpt.com/docs/sandboxing)
+- [Configuration precedence](https://learn.chatgpt.com/docs/config-file/config-basic)
 - [CLI reference](https://learn.chatgpt.com/docs/cli/reference)
 - [App-server interface](https://learn.chatgpt.com/docs/app-server)
-- [Managed deny-read](https://learn.chatgpt.com/docs/enterprise/managed-configuration#enforce-deny-read-requirements)
-- [Windows sandbox](https://learn.chatgpt.com/docs/windows/windows-sandbox)
