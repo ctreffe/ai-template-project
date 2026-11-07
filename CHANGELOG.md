@@ -6,6 +6,10 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Prefer shallow document/subproject folders with companion formats together
+  under TVDR-0085. Preserve file-role/access boundaries and technical layout
+  requirements; existing-project migration and cleanup remain separately selected.
+
 - Adopt purpose-led concise writing under TVDR-0084: understanding comes first,
   with a brief resident rule and local guidance preserving essential reasoning,
   evidence, instructions and domain limits. Existing-project adoption is separate.

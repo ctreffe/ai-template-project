@@ -6,6 +6,26 @@ This document describes repository-level standards for projects created from the
 
 ---
 
+## Document and subproject folders
+
+Within each applicable role and access root, prefer shallow folders named for
+the document, subject or subproject. Keep companion formats together, for
+example output/handbook/handbook.pdf and output/handbook/handbook.docx.
+A single deliverable may live directly in output/. Add subfolders only for
+meaningful source roles, access boundaries, workflow, volume or tool requirements.
+Work-item and catalog IDs remain metadata, not mandatory directory names.
+Use descriptive filenames and language or revision suffixes when needed to
+avoid collisions; do not add version-folder chains by default.
+
+Apply this within input/ classifications, materials/ storage states and approved
+output locations; never merge access zones or alter original input content.
+Keep catalog IDs, provenance and relative references stable. Technical build,
+website and dependency trees may need their own structure. Rendering must
+preserve companion formats and unrelated files; cleanup needs its own authority.
+Existing projects and files are not moved or reorganized automatically.
+
+Keep generic deliverable versioning and documented project-specific roles.
+
 # Repository as Project Memory
 
 The repository should contain enough context to continue the project without relying on private chat history.

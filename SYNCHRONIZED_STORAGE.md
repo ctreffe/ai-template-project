@@ -24,7 +24,10 @@ restricted and credential content stays outside this area. The rule does not
 reclassify existing files or authorize access to a whole cloud account.
 Existing `input/local/` mappings remain supported for exact approved files;
 legacy intake/restricted areas remain closed. No automatic move or migration.
-Optional subject/document folders may organize content without changing its role.
+Within these approved roots, prefer shallow document or subject folders and
+keep companion formats together. Follow
+[document and subproject folders](REPOSITORY.md#document-and-subproject-folders)
+for naming and technical exceptions; catalog identity and access remain unchanged.
 
 For an optional separate restricted area and its approved readable metadata,
 select `manage-restricted-storage` and [RESTRICTED_STORAGE.md](RESTRICTED_STORAGE.md).
