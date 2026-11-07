@@ -5,6 +5,11 @@ description: Close a reviewed version or milestone with synchronized metadata, c
 
 # Commit Milestone
 
+Before Git execution, consult [GIT_TRANSPORT.md](../../../GIT_TRANSPORT.md)
+for this repository's qualified launcher and transport. Reuse applicable
+operation-specific evidence and the exact reviewed invocation, preserving
+the action authority and narrow execution approval required below.
+
 Use only when the maintainer explicitly invokes `$commit-milestone` for an
 identified milestone or version closure, or requests missing tags for identified
 completed milestones. This does not replace development or review.

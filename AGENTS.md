@@ -73,6 +73,10 @@ Resident contract.
 - Use `record-idea` for a clear request to retain or update an idea; discussion
   alone does not trigger capture. Retrospective discovery remains explicit.
 
+- Use `manage-codex-config` for requested project-local configuration and
+  setup/storage deltas; one owner preserves existing settings and recovery.
+  Ordinary task entry does not configure the client.
+
 ## Validation
 
 Codex skill edits use `scripts/Test-CodexSkill.ps1`; on first use follow

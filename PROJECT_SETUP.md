@@ -441,6 +441,17 @@ original command; defer optional tools without blocking unrelated work.
 
 Keep the generic project free of Python setup when its tasks do not need it.
 
+## Project-local Codex configuration
+
+During start-project, prepare necessary custom settings through
+[manage-codex-config](.agents/skills/manage-codex-config/SKILL.md) and
+[CODEX_CONFIGURATION.md](CODEX_CONFIGURATION.md). The storage workflow
+supplies its protection delta to the same pending transaction. Reuse one
+original state and recovery plan; apply combined approved settings before
+the existing final profile restart/verification gate. Preserve user choices
+and domain rules. Optional tuning is deferred; no global config or live
+source-checkout configuration follows from this setup method.
+
 ## Reuse supplied setup choices
 
 Reuse an already explicit lean/grilling selection; ask the routing question only

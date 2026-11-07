@@ -5,6 +5,13 @@ description: Set up an optional restricted area, connect a device, maintain appr
 
 # Manage Restricted Storage
 
+This skill owns protection design and qualification. Route every selected
+config edit through [manage-codex-config](../manage-codex-config/SKILL.md).
+Pass the approved profile delta and any pending initialization transaction;
+reuse one original-state/recovery record and combine changes before restart.
+Do not call start-project or create a second config writer. Preserve local
+domain boundaries and the profile verification requirements below.
+
 Follow AGENTS.md, the repository's input/material rules and any applicable
 privacy, security or execution guidance. Read
 [RESTRICTED_STORAGE.md](../../../RESTRICTED_STORAGE.md) for the selected operation.

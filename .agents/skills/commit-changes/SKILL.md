@@ -5,6 +5,11 @@ description: Finalize an ordinary reviewed change as a scoped commit and normal 
 
 # Commit Changes
 
+Before Git execution, consult [GIT_TRANSPORT.md](../../../GIT_TRANSPORT.md)
+for this repository's qualified launcher and transport. Reuse applicable
+operation-specific evidence and the exact reviewed invocation, preserving
+the action authority and narrow execution approval required below.
+
 Confirm repository scope, working-tree state, staged selection and changed
 hunks. Preserve unrelated and pre-existing changes. Reuse current evidence
 while governed inputs have not changed.

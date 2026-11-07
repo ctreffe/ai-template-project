@@ -6,6 +6,16 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Add manage-codex-config under TVDR-0083 for custom project-local TOML,
+  shared setup/storage changes and conflict-safe recovery. Recommend
+  supported Auto-review for new projects while preserving explicit choices
+  and protection. No live configuration or existing-project rollout.
+
+- Make qualified Git launchers and transports discoverable through
+  GIT_TRANSPORT.md under TVDR-0082, with commit, recovery, synchronization
+  and setup routing. Preserve project-owned evidence and domain boundaries;
+  no adapter deployment or new live qualification is included.
+
 - Align record-decision with TVDR-0080: all source templates, including
   Guarded, keep reusable record templates; Governance owns their development
   decisions. Preserve derived-project records and local domain rules.

@@ -1,43 +1,36 @@
 # Task handoff
 
-Status: completed
-Date: 2026-11-04
+Status: completed (IDEA-0030 custom project configuration)
+Date: 2026-11-07
 
 ## Outcome
 
-Extend the existing explicit-only manage-restricted-storage workflow under
-Governance TVDR-0072 with actual workspace-root review, guarded configuration
-changes, observed ordinary Desktop activation and safe project controls before
-and after independent canary read/list/create checks. A substitute writable
-output/task root does not qualify intended project writes.
-
-Changed only the skill entry, conditional adapter, blank local-state example,
-restricted-storage guide, changelog and this handoff. Saved configuration,
-selection, project usability and protection remain separate outcomes. No live
-profile or populated catalog is installed by source adoption.
-
-Generic project and sensitivity choices remain project-owned.
-The earlier TVDR-0070 idea workflow and existing authored ideas are preserved.
+Implement TVDR-0083 through manage-codex-config and
+[CODEX_CONFIGURATION.md](CODEX_CONFIGURATION.md). The focus is custom project
+.codex/config.toml. start-project prepares necessary settings and storage setup
+supplies the protection delta to one shared candidate/recovery transaction.
+The maintainer selected recommending supported Auto-review for new projects;
+explicit preferences, managed requirements, protection and domain rules remain.
+No source implementation work remains. Actual project adoption/configuration
+and effective reviewer behavior require their own selected operation.
 
 ## Evidence and limits
 
-- This repository's scripts/Test-CodexSkill.ps1 passed for the changed skill,
-  using its supported PythonPath argument with the existing managed Governance
-  interpreter and pinned PyYAML 6.0.3; no installation.
-- 11 focused local Markdown references resolve; explicit-only invocation
-  policy is unchanged. Reviewed missing project roots, stale active selection,
-  separate privileged fixture setup, partial failures and before/deny/after use.
-- Governance's RESTRICTED_STORAGE_PROFILE_INTEGRATION.md records the separate
-  selected Finance correction and actual ordinary-tool result. That result is
-  not behavioral qualification of this source or every derived project.
-- No real data, provider/credential, R/render/application run, protected worker,
-  Git write, installation or release. Unchanged unit suites and full family,
-  milestone and whitespace gates were not run for this bounded source change.
+Four owning Test-CodexSkill.ps1 checks pass for manage-codex-config, start-project,
+manage-restricted-storage and sync-template using the existing managed Governance
+interpreter with pinned PyYAML. Governance's selected topology, local links and
+semantic source review include this repository. New routes resolve. Bilingual
+catalog rows retain the existing layout; no rendering was needed. No live
+activation or reviewer behavior is claimed by these source checks.
 
-## Continuation and versioning boundary
+No packages were installed. Full-family, whitespace, render, domain/runtime and
+milestone gates were not needed or run. Protected settings remain operator-owned;
+no real config, global defaults, trust, credentials, tools or permissions were
+changed, and no new chat, live API call or Git mutation occurred.
 
-TVDR-0074 replaces routine local canary checks with short profile scope checks
-after a full Desktop restart for activation and rollback. Existing projects
-adopt it through a selected local task. Concrete behavior questions route to
-Governance. Guarded adaptation remains separately scoped.
-Later versioning decisions use live Git state and exact action authority.
+## Preserved work and continuation
+
+The preceding IDEA-0033 Git-route integration and earlier profile/autonomy and
+source-decision changes remain intact. Staging selections are preserved.
+Existing-project adoption is separate. Later versioning reconciles live state
+and requires repository/action-specific authority; this handoff grants none.

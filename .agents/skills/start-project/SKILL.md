@@ -64,6 +64,12 @@ template, not a source-template maintenance checkout or an active project.
 5. Adapt `AGENTS.md` only for concrete commands, layout or validation
    differences. Retain `PROJECT_SETUP.md` and domain setup documents as the
    initialization method; no separate initialization prompt is retained.
+   Before the final protection step, use
+   [manage-codex-config](../manage-codex-config/SKILL.md) to prepare only the
+   necessary project settings from existing answers. Keep one pending
+   transaction for the storage profile delta and combine them before apply/
+   restart. Preserve preferences; defer optional tuning without another
+   questionnaire. Return saved/active/pending evidence before cleanup.
 6. After ordinary setup and before initialization cleanup, identify the documented
    closed folders from the template layout or tracked marker metadata. Do not
    inspect the folders. For projects with closed folders, follow the
@@ -75,6 +81,9 @@ template, not a source-template maintenance checkout or an active project.
    local chat, and a fresh ordinary tool turn confirms its scope.
    Required workflow usability must also pass or be explicitly excluded by the
    maintainer; reuse current evidence and retain pending capabilities on resume.
+   Retain any qualified Git launcher/transport and pending operations in
+   [GIT_TRANSPORT.md](../../../GIT_TRANSPORT.md), preserving existing local
+   route ownership. Do not leave the accepted invocation only in task scratch.
 7. After successful normal-project initialization, replace the inherited
    source-template maintenance history in `CHANGELOG.md` with a project-owned
    `Unreleased` changelog and replace `TASK_HANDOFF.md` with a project-owned

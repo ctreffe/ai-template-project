@@ -15,7 +15,7 @@ the setup invocation does not itself authorize credentials or remote writes.
 
 Qualify the original operation in the intended Desktop chat. A successful shell,
 network request, SSH handshake or read does not establish fetch/push. An external
-CLI test is component evidence. For approved Git writes, use one absent temporary
+CLI test is component evidence. For approved remote write trials, use one absent temporary
 ref at an already published commit, verify it independently, delete only that
 owned ref with an expected-value guard, and verify absence. Preserve main, HEAD,
 index and profile bytes. Consider hooks/workflows before any remote test.
@@ -32,6 +32,15 @@ and evidence; adapter/original settings/recovery pointer; missing authority
 and next step. Never include credentials or protected-source details.
 
 ## Windows Git compatibility
+
+Retain the complete accepted invocation under
+[GIT_TRANSPORT.md](../../../../GIT_TRANSPORT.md), including the command
+launcher as well as authentication. Link the existing local capability
+table and approved bindings instead of duplicating them. Qualify required
+local metadata operations (staging, commit and tag as applicable) separately
+from transport, with their own exact authority and result verification.
+The remote-only trial above preserves HEAD/index; it cannot qualify those
+local writes. An authorized real workflow can supply their acceptance.
 
 If MSYS reports `NtCreateDirectoryObject` / `0xC0000022`, compare the fixed shell
 startup separately from networking and authentication. Read-deny profiles can

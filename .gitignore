@@ -70,3 +70,10 @@ deliverables/
 !/temp/restricted/
 /temp/restricted/*
 !/temp/restricted/README.md
+
+# Non-secret device-specific Git route bindings and evidence
+/GIT_TRANSPORT.local.md
+
+# Approved local Codex configuration transaction state
+/CODEX_CONFIG.local.md
+/.codex/config-recovery/
