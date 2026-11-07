@@ -40,3 +40,12 @@ Repeat per-area sections only when necessary; this file grants no source access.
 - Configuration: `<not configured / configured / blocked>`
 - Active scope: `<confirmed | incomplete | failed | stale>`
 - Next agreed action: `<bounded action or none>`
+
+## Required workflow capability evidence
+
+| Operation / required status | Device, runtime, profile and route | Result and evidence | Adapter / exact recovery delta |
+| --- | --- | --- | --- |
+| `<required operation or explicit exclusion>` | `<context>` | `<PASS / FAIL / NOT_TESTED / NOT_APPLICABLE; reason>` | `<none or approved local pointer; no secrets>` |
+
+- Missing action authority / next step: `<exact gap or none>`
+- Evidence invalidated by changes: `<affected rows and reason or none>`

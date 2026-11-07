@@ -73,6 +73,8 @@ template, not a source-template maintenance checkout or an active project.
    profile step is unavailable, blocked or awaiting confirmation. Continue only
    after the maintainer fully restarts Desktop, selects the profile in the intended
    local chat, and a fresh ordinary tool turn confirms its scope.
+   Required workflow usability must also pass or be explicitly excluded by the
+   maintainer; reuse current evidence and retain pending capabilities on resume.
 7. After successful normal-project initialization, replace the inherited
    source-template maintenance history in `CHANGELOG.md` with a project-owned
    `Unreleased` changelog and replace `TASK_HANDOFF.md` with a project-owned

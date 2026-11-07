@@ -71,3 +71,11 @@ Report layout, catalog, configuration and active scope separately. The short
 check confirms the declared runtime scope. Bring specific questions about
 behavior to Governance for invented-only testing. Folder classification and
 source access rules apply throughout.
+
+## Profile usability completion
+
+Profile setup also qualifies the project's required workflows through the
+[usability procedure](.agents/skills/manage-restricted-storage/references/profile-usability.md).
+Retain separate protection and capability results, including exclusions and
+missing authority. Reuse matching current evidence. A configured profile alone
+does not complete this gate; ordinary task entry adds no recurring checks.

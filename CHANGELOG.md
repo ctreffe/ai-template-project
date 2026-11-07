@@ -6,6 +6,15 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Align record-decision with TVDR-0080: all source templates, including
+  Guarded, keep reusable record templates; Governance owns their development
+  decisions. Preserve derived-project records and local domain rules.
+
+- Couple protection-profile setup with required workflow qualification and
+  bounded native transport/cache guidance under TVDR-0077; retain local domain
+  and credential gates. Add TVDR-0078's independent completion rule within
+  existing authority to AGENTS.md.
+
 - Add the standard closed-folder profile to the end of project initialization
   under TVDR-0076. Resume after the Desktop restart and confirm the active
   scope before initialization cleanup.

@@ -75,14 +75,22 @@ in the approved ignored state. If a deny or root is missing, report the gap.
 Refer concrete doubts about enforcement or ordinary work to Governance for
 separately approved invented-only testing.
 
+## Required workflow usability
+
+During selected profile setup, follow the
+[usability procedure](references/profile-usability.md) for required project
+operations and any bounded adapter. Keep protection and usability evidence
+separate. Reuse current evidence; do not add checks to ordinary task entry.
+
 ## Standard profile during initialization
 
 When explicitly invoked `start-project` routes here, use the
 [profile procedure](references/codex-permissions.md) for the documented
 closed folders only. Reuse setup choices and skip optional area setup, new
-catalogs and behavior probes. Verify that local config and recovery files
+catalogs and broader protection probes. Qualify only required workflow usability
+under the procedure above. Verify that local config and recovery files
 are ignored and untracked. An exact original config copy can use
 `.codex/restricted-storage.original.toml`. Record the pending restart and
 intended profile with the recoverable original state. If already prepared, continue from that
 state without rewriting the profile or its original backup. Return the
-post-restart active-scope result to `start-project`.
+post-restart active-scope and required workflow results to `start-project`.

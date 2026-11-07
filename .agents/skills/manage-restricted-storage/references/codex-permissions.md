@@ -57,10 +57,18 @@ and managed restrictions before applying the approved change.
    restores the original mode if needed. Confirm the original configuration
    and effective scope in a fresh ordinary tool turn after that restart.
 
-Routine checks use no canaries, network requests, preview or Git operations.
-Bring specific enforcement or ordinary-work doubts to Governance for approved
-invented-only tests. Keep failed or stale results visible. Local command scope
+Routine scope checks use no negative canary probes. During selected setup,
+qualify required ordinary workflows through the
+[usability procedure](profile-usability.md), reusing current evidence and
+existing authority. Bring unresolved enforcement or compatibility questions
+to Governance for separately scoped invented-only tests. Keep failed or stale results visible. Local command scope
 gives no assurance for other tool routes or approved escalation.
+
+## Required workflows
+
+Complete the [usability procedure](profile-usability.md) alongside the selected
+profile setup. Keep missing authority or failed required operations pending.
+Domain-specific credential and execution boundaries remain authoritative.
 
 ## Official sources
 

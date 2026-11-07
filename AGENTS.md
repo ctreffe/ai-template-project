@@ -7,6 +7,11 @@ Resident contract.
 - Inspect repository, branch, worktree and staging; preserve changes,
   selections and unrelated work.
 - Maintainers own intent, scope and consequential decisions.
+- Carry the agreed task independently to a verified result within existing
+  authority. Ask only for missing authority, consequential direction choices or
+  real blockers; continue independent authorized work while waiting. Reuse prior
+  grants within their scope. Preserve access boundaries and explicitly invoked
+  workflows; autonomy grants no additional authority.
 - Authorized reads and edits are allowed. Commits, tags, pushes, pulls, merges,
   rebases, resets, reverts, branches, stashes, destructive restores and direct
   `.git/` changes each require an instruction containing `explicit`,
