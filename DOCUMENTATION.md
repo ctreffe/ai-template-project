@@ -191,6 +191,13 @@ Harmonization is especially important after:
 
 Use precise, plain language.
 
+Write as long as necessary and as short as possible for the purpose and audience.
+Understanding takes priority over brevity. Retain essential reasoning, evidence,
+context, instructions and useful examples; remove repetition, digressions and
+detail that does not help the reader. Do not impose a word-count target or
+compress explanations into cryptic fragments. When revising, check that the
+reader can still understand the outcome, assess its limits and act where needed.
+
 Avoid promotional wording.
 
 Prefer clarity over persuasion.

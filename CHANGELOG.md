@@ -6,6 +6,10 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Adopt purpose-led concise writing under TVDR-0084: understanding comes first,
+  with a brief resident rule and local guidance preserving essential reasoning,
+  evidence, instructions and domain limits. Existing-project adoption is separate.
+
 - Add manage-codex-config under TVDR-0083 for custom project-local TOML,
   shared setup/storage changes and conflict-safe recovery. Recommend
   supported Auto-review for new projects while preserving explicit choices

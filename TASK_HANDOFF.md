@@ -1,36 +1,26 @@
 # Task handoff
 
-Status: completed (IDEA-0030 custom project configuration)
-Date: 2026-11-07
+Status: completed (IDEA-0031 concise writing)
+Date: 2026-11-08
 
 ## Outcome
 
-Implement TVDR-0083 through manage-codex-config and
-[CODEX_CONFIGURATION.md](CODEX_CONFIGURATION.md). The focus is custom project
-.codex/config.toml. start-project prepares necessary settings and storage setup
-supplies the protection delta to one shared candidate/recovery transaction.
-The maintainer selected recommending supported Auto-review for new projects;
-explicit preferences, managed requirements, protection and domain rules remain.
-No source implementation work remains. Actual project adoption/configuration
-and effective reviewer behavior require their own selected operation.
+Implement TVDR-0084 with a brief rule in AGENTS.md and adapted guidance in
+[DOCUMENTATION.md](DOCUMENTATION.md): write as long as needed and as short as possible,
+with understanding first. Essential reasoning, evidence, instructions and domain
+limits remain. CHANGELOG.md records the change. No source work remains.
 
 ## Evidence and limits
 
-Four owning Test-CodexSkill.ps1 checks pass for manage-codex-config, start-project,
-manage-restricted-storage and sync-template using the existing managed Governance
-interpreter with pinned PyYAML. Governance's selected topology, local links and
-semantic source review include this repository. New routes resolve. Bilingual
-catalog rows retain the existing layout; no rendering was needed. No live
-activation or reviewer behavior is claimed by these source checks.
+Changed hunks and their meaning were reviewed against the existing local guidance;
+the resident guide link resolves. Generic project scope remains.
+No skill changed; skill validation is not applicable. Full-family, whitespace,
+render, runtime and milestone gates were not needed or run. Source review does
+not prove future agent adherence.
 
-No packages were installed. Full-family, whitespace, render, domain/runtime and
-milestone gates were not needed or run. Protected settings remain operator-owned;
-no real config, global defaults, trust, credentials, tools or permissions were
-changed, and no new chat, live API call or Git mutation occurred.
+## Continuation and versioning
 
-## Preserved work and continuation
-
-The preceding IDEA-0033 Git-route integration and earlier profile/autonomy and
-source-decision changes remain intact. Staging selections are preserved.
-Existing-project adoption is separate. Later versioning reconciles live state
-and requires repository/action-specific authority; this handoff grants none.
+Existing-project adoption is separately selected. Prior configuration and Git-route
+work remains intact; no staging selection was changed. This source change grants
+no Git, publication, configuration or protected-access authority. Later versioning
+uses live repository state and repository/action-specific authorization.
