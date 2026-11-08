@@ -6,6 +6,11 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Assess coherent commit packages before staging in both commit skills under
+  TVDR-0088. Preserve existing selections, validate meaningful intermediate
+  states and retain one final milestone closure/tag; existing-project adoption
+  and actual Git actions remain separate.
+
 - Define the maintainer-supplied template mission under TVDR-0087. Preserve
   domain control and transparent human-AI disclosure; capture concrete project
   missions and assess alignment in selected reviews and retrospectives.

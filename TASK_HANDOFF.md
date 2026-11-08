@@ -1,37 +1,33 @@
 # Task handoff
 
-Status: completed (IDEA-0032 missions, maintainer control and transparency)
+Status: completed (IDEA-0034 coherent commit packages)
 Date: 2026-11-08
 
 ## Outcome
 
-TVDR-0087 implements the maintainer-supplied mission in this source template.
-Maintainer domain control and truthful human-AI disclosure are shared principles.
-COLLABORATION.md owns bounded mission-alignment assessment; selected reviews,
-retrospectives and initialization reference it or the local setup contract.
-Both README languages retain explicit collaboration disclosure and mission links.
-Generic and hybrid projects retain their own purpose; clear specialization
-prompts deliberate source-template adoption with preserved provenance.
-No selected source implementation work remains.
+TVDR-0088 implements IDEA-0034 in this source template. Both commit skills
+use local COMMIT_PACKAGES.md before staging: meaningful grouping, dependency
+order, preserved selections, safe shared-file hunks and evidence for each
+candidate tree. Milestones retain comprehensive final-state checks and one
+final closure/tag. Existing domain and Git authority boundaries remain.
 
 ## Evidence and limits
 
-Changed source, domain boundaries and bilingual meaning were reviewed. All 21
-changed skills passed their owning wrappers with existing pinned PyYAML 6.0.3;
-no installation occurred. Retrospective contracts, skill topology and Governance
-content checks passed. Selected link checks passed 807 targets across 74 files;
-13 pre-existing anchors outside selected content remain unverified. TVDR-0087
-records scenarios, acceptance limits and the repaired TVDR-0085 heading mismatch.
+All fourteen changed skills passed their owning wrappers with existing
+Governance Python and pinned PyYAML 6.0.3 through the documented exact
+-PythonPath route; no installation occurred. Default member interpreter paths
+were unavailable and the explicit route resolved the checks. Skill topology
+passed. Selected links passed 235 targets across 26 files; four pre-existing
+out-of-selection anchor contents remain unverified. TVDR-0088 records source
+scenario assessment and limits; this is not a live staging or commit trial.
 
-Source assessment is not a live review, retrospective, initialization or native
-isolation trial. Domain runtime, rendering, whitespace, full-family, release
-and milestone gates were not needed or run. Existing derived projects remain
-outside adoption; missions do not grant data access or broader action authority.
+Domain runtime/rendering, whitespace, full-family and milestone gates were
+not needed or run. Existing derived projects remain outside adoption.
 
 ## Continuation and versioning
 
-Prior IDEA-0028 work and Analysis IDEA-0002 remain preserved. During source
-implementation, no Git mutation, profile change or publication was performed.
-Later versioning uses live state
-and repository/action-specific authority. Existing-project adoption and any
-Analysis review-code implementation remain separately selected tasks.
+No selected source implementation remains. Prior IDEA-0028/0032 work and
+Analysis IDEA-0002 remain preserved. During implementation, no Git mutation,
+history rewrite, configuration change or publication occurred. Later versioning
+uses live state and repository/action-specific authority. Existing-project
+adoption remains separately selected.
