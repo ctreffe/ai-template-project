@@ -111,11 +111,10 @@ rule requires one. Preserve existing approved network settings. Source access,
 transmission and publication remain separate choices.
 
 For projects with documented closed folders, the final `start-project` step
-runs [manage-restricted-storage](.agents/skills/manage-restricted-storage/SKILL.md)
-for the standard project-local profile. Reuse the existing setup answers. The
-maintainer fully restarts Codex Desktop and selects the profile in the local
-project chat. Confirm the active scope in a fresh ordinary turn before
-completing initialization. Keep the checkpoint and resume after the restart.
+uses the [standard initialization profile](.agents/skills/manage-restricted-storage/SKILL.md#standard-profile-during-initialization).
+That procedure owns profile preparation, restart, recovery and required workflow
+qualification. Reuse setup answers and the pending checkpoint; initialization
+and cleanup remain pending until its active-scope and usability gates are met.
 
 `$start-project` begins with no more than six fundamental maintainer
 questions. Each numbered item is one coherent decision, not a container for a

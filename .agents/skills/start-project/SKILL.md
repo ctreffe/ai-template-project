@@ -11,24 +11,15 @@ template, not a source-template maintenance checkout or an active project.
 1. Apply `AGENTS.md`, then read `PROJECT_SETUP.md` and only the setup,
    privacy, domain and repository guidance it directly requires. Inspect Git
    read-only and preserve all existing work.
-2. Reuse an explicit lean/grilling choice already supplied for this setup.
-   Otherwise, before the normal questionnaire, ask one concise, unnumbered routing
-   question: continue with the lean path or use `grill-me` for detailed
-   initialization and planning. Explain that the lean path is the normal
-   default. Invoke `grill-me` only when the maintainer explicitly selects it;
-   a suggestion is not consent. The maintainer may decline or stop grilling
-   and return to the lean path. Do not act on grilling results until the
-   maintainer confirms shared understanding, and never treat path selection as
-   new access or action authority. On the lean path, establish the access
-   boundary before inspecting external material and ask only
-   unanswered fundamentals in one initial set of no more than six numbered,
-   coherent questions: project identity and purpose; intended audience and use;
-   first useful outcome and minimum success evidence; current scope and
-   non-goals; source, material or data access and sensitivity; and only those
-   operating constraints that must be fixed now. Explain unfamiliar terms,
-   accept explicit deferral of nonessential choices and do not hide a longer
-   questionnaire in nested subparts. Never infer access, versioning,
-   transmission or publication authority from a default or another answer.
+2. Follow the [lean initialization contract](../../../PROJECT_SETUP.md#lean-initialization-contract).
+   Reuse an explicit lean/grilling choice; otherwise ask one unnumbered routing question.
+   The lean path is the default. Invoke `grill-me` only when the maintainer
+   explicitly selects it; a suggestion is not consent. Allow return to the lean
+   path and require confirmed shared understanding before acting on grilling.
+   Ask only unanswered fundamentals in no more than six numbered, coherent questions;
+   explain unfamiliar terms, allow explicit deferral and avoid nested subparts.
+   Establish access before external inspection. Neither route, defaults nor
+   answers grant unrelated access, versioning, transmission or publication authority.
 3. After the maintainer answers, apply safe repository and domain defaults to
    nonessential undecided details and update the project-specific context and
    documentation named by `PROJECT_SETUP.md`. Record initialization status and
@@ -37,20 +28,10 @@ template, not a source-template maintenance checkout or an active project.
    Follow [Project Mission During Initialization](../../../PROJECT_SETUP.md#project-mission-during-initialization)
    to capture the concrete mission from the existing answers, preserving
    maintainer domain control and truthful README disclosure.
-   Before adapting README content, follow "Project READMEs and retained
-   template guides" in `PROJECT_SETUP.md`: inspect all four paths, preserve
-   changes and rename only confirmed inherited READMEs without overwrite.
-   Create required project `README.md` / `README.de.md` and adapt retained
-   `TEMPLATE_README.md` / `TEMPLATE_README.de.md`. Verify partial setup before
-   resuming; never rename a project introduction or replace an existing guide
-   with another inherited README. Continue adapting verified partial guides
-   while preserving unrelated edits. Remove dead template-only file/skill
-   links, correct guide identity,
-   omit inherited guide badges and preserve license notices and domain rules.
-   Link the project pair early to the guides, maintain reciprocal language
-   links within each pair and guide links back to the project introductions.
-   Review bilingual meaning and local navigation against the final cleanup
-   plan before declaring success; verify actual remaining links after cleanup.
+   Apply the [four-file README contract](../../../PROJECT_SETUP.md#project-readmes-and-retained-template-guides)
+   for safe role detection, partial setup, bilingual guides, navigation and rights.
+   Preserve existing work; verify the four files against the actual retained
+   inventory after successful cleanup. A failed check leaves setup incomplete.
    If `RETROSPECTIVE_PATHS.local.md` is absent, create it from the tracked
    example. Retain an exact verified source-template clone path supplied by
    `create-local-project`; otherwise leave that mapping `Unset`. Record a
@@ -67,23 +48,18 @@ template, not a source-template maintenance checkout or an active project.
 5. Adapt `AGENTS.md` only for concrete commands, layout or validation
    differences. Retain `PROJECT_SETUP.md` and domain setup documents as the
    initialization method; no separate initialization prompt is retained.
-   Before the final protection step, use
-   [manage-codex-config](../manage-codex-config/SKILL.md) to prepare only the
-   necessary project settings from existing answers. Keep one pending
-   transaction for the storage profile delta and combine them before apply/
-   restart. Preserve preferences; defer optional tuning without another
-   questionnaire. Return saved/active/pending evidence before cleanup.
-6. After ordinary setup and before initialization cleanup, identify the documented
-   closed folders from the template layout or tracked marker metadata. Do not
-   inspect the folders. For projects with closed folders, follow the
-   [standard initialization profile](../manage-restricted-storage/SKILL.md#standard-profile-during-initialization).
-   Record the pending state before the Desktop restart. On resume, reuse the saved
-   profile and recovery state. Leave initialization and cleanup pending if the
-   profile step is unavailable, blocked or awaiting confirmation. Continue only
-   after the maintainer fully restarts Desktop, selects the profile in the intended
-   local chat, and a fresh ordinary tool turn confirms its scope.
-   Required workflow usability must also pass or be explicitly excluded by the
-   maintainer; reuse current evidence and retain pending capabilities on resume.
+   Follow [project-local configuration](../../../PROJECT_SETUP.md#project-local-codex-configuration)
+   through manage-codex-config, combining necessary settings and the profile delta
+   in one pending transaction. Preserve preferences and defer optional tuning;
+   report saved/active/pending evidence before cleanup.
+6. For documented closed folders, follow the
+   [standard initialization profile](../manage-restricted-storage/SKILL.md#standard-profile-during-initialization)
+   before cleanup. Resolve folders from the template layout or tracked markers;
+   do not inspect them. Reuse pending configuration and original recovery state.
+   Keep initialization and cleanup pending until the maintainer fully restarts
+   Desktop, selects the intended local profile and a fresh ordinary tool turn
+   confirms its scope. Required workflow usability must pass or be explicitly
+   excluded by the maintainer; retain pending capabilities when resuming.
    Retain any qualified Git launcher/transport and pending operations in
    [GIT_TRANSPORT.md](../../../GIT_TRANSPORT.md), preserving existing local
    route ownership. Do not leave the accepted invocation only in task scratch.

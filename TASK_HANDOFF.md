@@ -1,33 +1,37 @@
 # Task handoff
 
-Status: completed (IDEA-0034 coherent commit packages)
+Status: reviewed source baseline v0.8.0
 Date: 2026-11-08
 
 ## Outcome
 
-TVDR-0088 implements IDEA-0034 in this source template. Both commit skills
-use local COMMIT_PACKAGES.md before staging: meaningful grouping, dependency
-order, preserved selections, safe shared-file hunks and evidence for each
-candidate tree. Milestones retain comprehensive final-state checks and one
-final closure/tag. Existing domain and Git authority boundaries remain.
+start-project now routes interview and four-file README details through local
+PROJECT_SETUP.md and profile mechanics through manage-restricted-storage.
+Setup/resume, six-question, recovery/usability and history-cleanup gates remain.
+PROJECT_SETUP.md and CHANGELOG.md reflect the selected simplification.
+
+The selected source milestone synchronizes VERSION, CHANGELOG.md and applicable
+static README badges. Earlier feature commits remain distinct; this coherent
+closure includes the reviewed final cleanup and acceptance metadata.
 
 ## Evidence and limits
 
-All fourteen changed skills passed their owning wrappers with existing
-Governance Python and pinned PyYAML 6.0.3 through the documented exact
--PythonPath route; no installation occurred. Default member interpreter paths
-were unavailable and the explicit route resolved the checks. Skill topology
-passed. Selected links passed 235 targets across 26 files; four pre-existing
-out-of-selection anchor contents remain unverified. TVDR-0088 records source
-scenario assessment and limits; this is not a live staging or commit trial.
+All 19 local skills passed the owning Test-CodexSkill.ps1 wrapper with the
+existing managed Python, PyYAML 6.0.3 and process-only UTF-8 mode. Source review
+covered changed contracts, local ownership and domain safeguards. Governance
+ran the applicable comprehensive family gate components separately, including
+source topology, policy, Markdown and metadata checks. Release-tag, clean-tree
+and live upstream outcomes must be verified from Git after authorized execution.
 
-Domain runtime/rendering, whitespace, full-family and milestone gates were
-not needed or run. Existing derived projects remain outside adoption.
+No executable project or domain render is part of this generic source template.
+
+No installation, live configuration/profile activation, provider use or derived
+project adoption occurred. Existing helper/experiment evidence remains historical;
+source validation establishes no new deployment qualification.
 
 ## Continuation and versioning
 
-No selected source implementation remains. Prior IDEA-0028/0032 work and
-Analysis IDEA-0002 remain preserved. During implementation, no Git mutation,
-history rewrite, configuration change or publication occurred. Later versioning
-uses live state and repository/action-specific authority. Existing-project
-adoption remains separately selected.
+No selected source implementation remains. Existing captured ideas and
+project-owned placeholders are preserved. Reconstruct branch, commit, tag and
+upstream status from live Git; this handoff records content acceptance and is
+not a substitute for the exact repository/action-specific Git authority.

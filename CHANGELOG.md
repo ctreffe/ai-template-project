@@ -6,6 +6,12 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-11-08
+
+- Simplify start-project by routing interview, four-file README and profile
+  mechanics to their existing local owners. Preserve setup/resume gates, scoped
+  authority and project-owned history; no initialization or profile activation.
+
 - Assess coherent commit packages before staging in both commit skills under
   TVDR-0088. Preserve existing selections, validate meaningful intermediate
   states and retain one final milestone closure/tag; existing-project adoption
