@@ -7,6 +7,9 @@
 > [!NOTE]
 > **AI Collaboration**
 >
+> This repository is developed and maintained through human-AI collaboration.
+> Final domain judgment remains with the maintainer.
+>
 > This repository maintains the generic AI Project Template.
 >
 > The template documents AI-assisted collaboration practices, context handoff, decision records and repository conventions for structured project work.
@@ -42,6 +45,9 @@
 
 ## Overview
 
+The [template mission](PHILOSOPHY.md#template-mission) defines its purpose,
+expected outcomes and boundaries. Concrete project goals remain maintainer-owned.
+
 The AI Project Template is a generic starting point for projects that benefit from structured collaboration, explicit context, documented decisions and reliable handoff between work sessions. It is intentionally not limited to software development: it supports research, planning, concept work, process design, operational projects and mixed project types.
 
 The template provides a repository-first collaboration model, local Codex rules, scoped collaboration skills, retained setup guidance, a current-state project context, documentation and repository standards, decision-record guidance and optional working folders. It is a project method and repository foundation, not a domain-specific framework.
@@ -68,7 +74,10 @@ Start from a specialized template when the primary work is already clear:
 
 - choose the Dev Template for implementation, tests, automation and releases;
 - choose the Documentation Template for audience-oriented technical documentation and publication;
-If a generic project later becomes development-oriented, document the transition and adopt or migrate toward the Dev Template deliberately.
+Hybrid projects may deliberately combine specialist workflows, for example Dev
+and Documentation, while retaining their own coherent mission. When a project
+clearly specializes, document the transition and adopt the fitting source
+template; do not continue indefinitely without the applicable specialist methods.
 
 ## Project Initialization
 
@@ -225,6 +234,12 @@ Synchronized files remain external storage; synchronization is not Git
 versioning, backup, assistant access or publication approval.
 
 ## Temporary Working Files
+
+Temporary Git worktrees are a separate exception: keep them under project-local
+ignored `temp/`, preferably `temp/worktrees/`, preserve the chat context, and exclude them
+from generic cleanup. Source versioning inside follows normal Git authority;
+see [the worktree contract](COLLABORATION.md#project-anchor-and-temporary-worktrees).
+The following intermediate-file rules do not replace that contract.
 
 Use `temp/` for disposable intermediate files. All contents outside
 `temp/restricted/` are assistant-readable; that restricted directory must not

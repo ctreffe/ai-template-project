@@ -1,5 +1,22 @@
 # PROJECT_SETUP.md
 
+## Project Mission During Initialization
+
+Use the existing purpose, audience, outcome, scope and evidence answers to
+record a concrete maintainer-confirmed mission in PROJECT_CONTEXT.md's intent
+section. Explain why the project exists, what useful result it should produce,
+its boundaries and how success can be assessed. Reuse supplied answers; add no
+questionnaire or questions beyond the existing six-question limit. Resolve
+consequential uncertainty with the maintainer instead of inventing intent.
+
+PHILOSOPHY.md retains the inherited template mission. A project may adapt or
+combine selected workflows; retain their source/baseline, scope and intentional
+differences in its existing lineage/synchronization records. Mission alignment
+does not authorize source adoption or erase local decisions. Keep final domain
+judgment with the maintainer and disclose actual human-AI collaboration in both
+project README languages, adapting the inherited note truthfully. Preserve
+access, privacy and publication boundaries.
+
 # Project Setup Guide
 
 This document describes how to initialize a new project from the AI Project Template.

@@ -54,7 +54,10 @@ move changes location. Link transformations to the original input ID in `Based o
 never modify an input in place or keep silently competing copies. Document
 assignments use IDs; they do not duplicate source files. Repository source,
 configuration, approved versioned assets and domain-specific maintained data
-remain in their established repository locations. Do not synchronize `temp/`; it stays disposable and device-local. Cloud synchronization is not Git history, backup or publication.
+remain in their established repository locations. Do not synchronize `temp/`; keep it device-local. Preserve worktrees under the
+[worktree contract](COLLABORATION.md#project-anchor-and-temporary-worktrees);
+only designated intermediates are disposable. Cloud synchronization is not Git
+history, backup or publication.
 
 Versioned catalogs contain only safe logical references. Ignored
 `input/PATHS.local.md` and `materials/PATHS.local.md` map logical roots to this

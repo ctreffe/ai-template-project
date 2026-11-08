@@ -1,5 +1,29 @@
 # PHILOSOPHY.md
 
+## Template Mission
+
+Provide a generic foundation for projects outside a clear specialist fit:
+work with emerging workflows, unusually specific purposes that do not justify
+a separate template, and hybrid projects spanning several domains. Make intent,
+context, decisions and useful outcomes understandable and easy to continue.
+
+A hybrid may deliberately combine specialist workflows, such as Dev and Docs,
+while retaining its coherent project mission and each adopted workflow's source
+and boundaries. When a project clearly specializes, select and adopt the fitting
+source template rather than indefinitely continuing without its methods. A
+hybrid need not be forced into one category; source changes remain deliberate.
+
+## Mission Ownership
+
+This section owns the source template's mission. In a derived project, retain it
+as the inherited workflow purpose; PROJECT_CONTEXT.md owns the maintainer's
+concrete project mission, outcome and boundaries. Do not substitute the template
+mission for that local purpose. Maintainer domain judgment remains decisive at
+both levels. Disclose actual human-AI collaboration clearly in template and
+project READMEs without exposing sensitive content. The local
+[alignment method](COLLABORATION.md#mission-alignment) governs reviews and
+retrospectives; mission drift requires a maintainer decision, not silent rewriting.
+
 # Project Philosophy
 
 The AI Project Template is based on the idea that good project work is easier to continue when intent, context, decisions and outputs are visible in the repository.
@@ -50,11 +74,17 @@ The goal is not to create bureaucracy. The goal is to make future continuation e
 
 ---
 
-# General Projects May Become Dev Projects
+# Generic, Hybrid and Specialized Projects
 
-Some projects begin as planning, research or documentation work and later become development-oriented.
+Some projects begin with an open purpose, combine multiple domains or need
+unusually specific workflows. A hybrid may remain generic while deliberately
+adopting selected specialist methods and preserving their provenance.
 
-The generic template should support that evolution. When the project becomes centered on code, automation, tests, releases or technical architecture, adopting the AI Dev Template may become appropriate.
+When the project clearly focuses on a specialist domain, adopt the fitting
+source template through a deliberate local decision, for example Dev for
+software/tooling or Documentation for maintained technical documents. Preserve
+the project's mission and work during the transition; no automatic migration
+follows from a review observation.
 
 ---
 

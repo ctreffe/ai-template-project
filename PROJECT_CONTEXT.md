@@ -108,6 +108,13 @@ Potential transition:
 
 # Maintainer Project Intent
 
+This section owns the concrete project mission. State the maintainer-confirmed
+purpose and desired outcome, with background, audience/use, boundaries and
+success evidence here or by reference to the existing fields below. Keep
+PHILOSOPHY.md's inherited template mission distinct; do not fill project goals
+from template defaults or agent assumptions. Review alignment through
+[COLLABORATION.md](COLLABORATION.md#mission-alignment).
+
 Maintainer-owned initial context:
 
 ```text

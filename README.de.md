@@ -7,6 +7,9 @@
 > [!NOTE]
 > **KI-Zusammenarbeit**
 >
+> Dieses Repository wird in Mensch-KI-Zusammenarbeit entwickelt und gepflegt.
+> Die fachliche Kontrolle bleibt beim Maintainer.
+>
 > Dieses Repository pflegt das generische AI Project Template.
 >
 > Das Template dokumentiert Praktiken für KI-gestützte Zusammenarbeit, Kontextübergaben, Decision Records und Repository-Konventionen für strukturierte Projektarbeit.
@@ -42,6 +45,9 @@
 
 ## Überblick
 
+Die [Template-Mission](PHILOSOPHY.md#template-mission) beschreibt Zweck,
+angestrebte Ergebnisse und Grenzen. Konkrete Projektziele bleiben beim Maintainer.
+
 Das AI Project Template ist ein generischer Ausgangspunkt für Projekte, die von strukturierter Zusammenarbeit, explizitem Kontext, dokumentierten Entscheidungen und zuverlässiger Übergabe zwischen Arbeitssitzungen profitieren. Es ist bewusst nicht auf Softwareentwicklung beschränkt: Es unterstützt Forschung, Planung, Konzeptarbeit, Prozessgestaltung, operative Projekte und gemischte Projekttypen.
 
 Das Template stellt ein Repository-zentriertes Kollaborationsmodell, lokale Codex-Regeln, abgegrenzte Kollaborations-Skills, erhaltene Setup-Leitlinien, einen aktuellen Projektkontext, Dokumentations- und Repository-Standards, Leitlinien für Decision Records und optionale Arbeitsordner bereit. Es ist eine Projektmethode und Repository-Grundlage, kein domänenspezifisches Framework.
@@ -68,7 +74,10 @@ Beginne mit einem spezialisierten Template, wenn die primäre Arbeit bereits fes
 
 - das Dev Template für Implementierung, Tests, Automatisierung und Releases;
 - das Documentation Template für zielgruppenorientierte technische Dokumentation und Veröffentlichung;
-Wenn ein generisches Projekt später entwicklungsorientiert wird, dokumentiere den Übergang und übernimm das Dev Template oder migriere bewusst dorthin.
+Hybride Projekte können gezielt spezialisierte Workflows kombinieren, etwa aus
+Dev und Documentation, und dabei ihre eigene zusammenhängende Mission bewahren.
+Wenn sich ein Projekt klar spezialisiert, dokumentiere den Übergang und übernimm
+das passende Quelltemplate; arbeite nicht dauerhaft ohne dessen passende Methoden weiter.
 
 ## Projektinitialisierung
 
@@ -235,6 +244,12 @@ bleiben externer Speicher; Synchronisierung ist weder Git-Versionierung,
 Backup, Assistant-Zugriff noch Publikationsfreigabe.
 
 ## Temporäre Arbeitsdateien
+
+Temporäre Git-Worktrees bilden eine eigene Ausnahme: Sie liegen projektlokal
+unter ignoriertem `temp/`, vorzugsweise `temp/worktrees/`, bewahren den Chat-Kontext und
+sind von allgemeiner Bereinigung ausgenommen. Für die Versionierung ihrer
+Quelldateien gilt die normale Git-Autorisierung; siehe [Worktree-Regeln](COLLABORATION.md#project-anchor-and-temporary-worktrees).
+Die folgenden Regeln für Zwischendateien ersetzen diese Vereinbarung nicht.
 
 Verwende `temp/` für wegwerfbare Zwischendateien. Alle Inhalte außerhalb von
 `temp/restricted/` sind für den Assistant lesbar; dieses Restricted-Verzeichnis

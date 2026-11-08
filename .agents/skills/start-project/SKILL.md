@@ -34,6 +34,9 @@ template, not a source-template maintenance checkout or an active project.
    documentation named by `PROJECT_SETUP.md`. Record initialization status and
    date, source-template version and commit, synchronization baseline and
    intentional deviations.
+   Follow [Project Mission During Initialization](../../../PROJECT_SETUP.md#project-mission-during-initialization)
+   to capture the concrete mission from the existing answers, preserving
+   maintainer domain control and truthful README disclosure.
    Before adapting README content, follow "Project READMEs and retained
    template guides" in `PROJECT_SETUP.md`: inspect all four paths, preserve
    changes and rename only confirmed inherited READMEs without overwrite.
