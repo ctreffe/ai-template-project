@@ -142,7 +142,7 @@ for the initialization and interrupted-setup contract.
 
 ## Collaboration Skills
 
-Skills are scoped workflows in [`.agents/skills/`](.agents/skills/). They guide
+Skills are scoped workflows in [`.agents/skills/`](.agents/skills). They guide
 the agent through a particular task and load the relevant repository guidance.
 Invoke a skill in chat with `$skill-name`, for example
 `$review-project`. The linked skill files describe each full workflow.
@@ -322,7 +322,7 @@ Decision Records preserve why consequential choices were made. Choose the prefix
 - **ADR — Architecture Decision Record:** technical architecture, tooling, formats, automation or another durable technical structure in a derived project.
 - **DDR — Documentation Decision Record:** documentation structure, terminology, audience-facing material, publication rules or documentation QA.
 
-The generic template defaults to PDRs and explains the model in [DECISIONS.md](DECISIONS.md). Use [decisions/](decisions/) only for decisions whose rationale will matter to future collaborators; small routine choices do not need a record.
+The generic template defaults to PDRs and explains the model in [DECISIONS.md](DECISIONS.md). Use [decisions/](decisions) only for decisions whose rationale will matter to future collaborators; small routine choices do not need a record.
 
 ## Repository Structure
 

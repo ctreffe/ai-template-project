@@ -77,3 +77,6 @@ deliverables/
 # Approved local Codex configuration transaction state
 /CODEX_CONFIG.local.md
 /.codex/config-recovery/
+
+# Device-local ordinary synchronized project root
+/storage.local.json

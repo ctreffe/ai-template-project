@@ -22,8 +22,8 @@ The catalog records three storage states:
 - `external`: the file is stored outside the repository and represented by a
   stable logical location in `CATALOG.md`.
 
-Copy `PATHS.local.example.md` to the ignored `PATHS.local.md` when logical
-external locations need device-specific paths. Do not put credentials, private
+Use repository-root storage.local.json for the ordinary sync root. Copy
+PATHS.local.example.md only for independently located sources. Do not put credentials, private
 share tokens or machine-specific absolute paths in the versioned catalog.
 
 Materials are durable working foundations, not caches, disposable temporary
@@ -65,3 +65,10 @@ task. Record a missing report as an evidence gap; never invent its contents or
 assessment. Check only needed artifacts, not every catalog or project. Use
 [SYNCHRONIZED_STORAGE.md](../SYNCHRONIZED_STORAGE.md) when setup or a mapping
 problem actually needs attention.
+
+## Ordinary synchronized root
+
+Use repository-root storage.local.json for the ordinary external project area;
+input/materials PATHS.local.md files are for independent sources or explicit legacy
+migration only. Preserve domain overrides and existing access/provider limits.
+See SYNCHRONIZED_STORAGE.md at the repository root.

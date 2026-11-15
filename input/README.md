@@ -33,3 +33,10 @@ separate maintainer decisions. Moving a file does not authorize reading,
 staging, committing, pushing or sharing it. Files that become maintained
 project content may move to a more specific project folder after their origin
 and handling have been recorded.
+
+## Ordinary synchronized root
+
+Use repository-root storage.local.json for the ordinary external project area;
+input/materials PATHS.local.md files are for independent sources or explicit legacy
+migration only. Preserve domain overrides and existing access/provider limits.
+See SYNCHRONIZED_STORAGE.md at the repository root.

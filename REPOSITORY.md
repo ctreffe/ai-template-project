@@ -146,7 +146,7 @@ files in `materials/`, register them in `materials/CATALOG.md` and record their
 provenance through `Based on`. Every registered material is assistant-readable;
 choose `local`, `versioned` or `external` storage independently of access.
 Machine-specific external-path mappings belong only in ignored
-`materials/PATHS.local.md`. Caches, disposable files and final outputs are not
+`storage.local.json`. Caches, disposable files and final outputs are not
 project materials.
 
 For optional [restricted storage](RESTRICTED_STORAGE.md), register only the

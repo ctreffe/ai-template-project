@@ -35,9 +35,9 @@ Obtain missing outside-write/provider authority before creating folders or
 moving files. Use one stable catalog ID and actual location per artifact.
 Keep originals unchanged; transformations become separately cataloged materials.
 Do not synchronize temp or copy an entire repository hierarchy. Never migrate
-existing files implicitly. Keep absolute paths/provider details in ignored
-PATHS.local.md files. Connecting another host normally changes only those
-mappings; record durable choices in existing context/decisions, not a second
+existing files implicitly. Keep the ordinary absolute project root in ignored storage.local.json;
+independent sources retain their separate mappings. Connecting another host
+normally changes only its root configuration and independent mappings; record durable choices in existing context/decisions, not a second
 storage catalog. New research defaults follow the material guide.
 
 ## Check a concrete dependency
@@ -64,3 +64,10 @@ automatic task-entry check, installation, credential use or publication follows
 from this skill. Where a control-word authorization is missing, propose a
 minimum copy-ready instruction for the exact destination/action and consequence;
 the suggestion is not authorization.
+
+## Ordinary synchronized root
+
+Use repository-root storage.local.json for the ordinary external project area;
+input/materials PATHS.local.md files are for independent sources or explicit legacy
+migration only. Preserve domain overrides and existing access/provider limits.
+See SYNCHRONIZED_STORAGE.md at the repository root.

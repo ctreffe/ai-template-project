@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [Parameter(Mandatory = $true)][string]$ProjectPath,
+    [string]$ProjectPath,
     [Parameter(Mandatory = $true)][string]$ProjectId,
     [string[]]$RelativeFile = @(),
     [hashtable]$ExpectedSha256 = @{}
@@ -8,6 +8,18 @@ param(
 
 # Only exact, already authorized files. No discovery, download or provider API.
 $ErrorActionPreference = 'Stop'
+if ([string]::IsNullOrWhiteSpace($ProjectPath)) {
+    $configurationPath = Join-Path (Split-Path $PSScriptRoot -Parent) 'storage.local.json'
+    if (-not (Test-Path -LiteralPath $configurationPath -PathType Leaf)) {
+        throw 'Configure storage.local.json or supply an approved ProjectPath.'
+    }
+    $configuration = Get-Content -LiteralPath $configurationPath -Raw -Encoding UTF8 | ConvertFrom-Json
+    if ($null -eq $configuration -or $configuration.project_root -isnot [string] -or
+        [string]::IsNullOrWhiteSpace($configuration.project_root)) {
+        throw 'storage.local.json requires one nonempty absolute project_root.'
+    }
+    $ProjectPath = $configuration.project_root
+}
 if ($ProjectId -notmatch '\A[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}\z') {
     throw 'Use a non-sensitive project ID containing 1-64 letters, digits, underscores or hyphens.'
 }

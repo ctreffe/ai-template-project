@@ -5,4 +5,6 @@ paths available on the current device. `PATHS.local.md` is ignored by Git.
 
 | Logical root | Local path | Availability or sync status | Notes |
 | --- | --- | --- | --- |
-| `sync:<project-id>/materials` | `<absolute local synchronized materials path>` | `<available | partially synced | unavailable | not checked>` | `<provider and local-only sync notes>` |
+
+For the ordinary sync area use ../storage.local.json (project_root), not a
+second input/materials root. This table is only for independent sources.

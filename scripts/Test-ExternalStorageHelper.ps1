@@ -36,6 +36,22 @@ try {
     $flat = & $helper -ProjectPath $fixtureRoot -ProjectId 'project-a' -RelativeFile 'input/flat-source.txt'
     Assert-Result ($flat.Files[0].Availability -eq 'local_file') 'Simplified external input failed.'
 
+    # Exercise the new device-root configuration route without real mappings.
+    $configuredRepo = Join-Path $fixtureRoot 'configured-repo'
+    $configuredScripts = Join-Path $configuredRepo 'scripts'
+    New-Item -ItemType Directory -Path $configuredScripts -Force | Out-Null
+    $configuredHelper = Join-Path $configuredScripts 'Test-ExternalStorage.ps1'
+    Copy-Item -LiteralPath $helper -Destination $configuredHelper
+    $configPath = Join-Path $configuredRepo 'storage.local.json'
+    Assert-Refused { & $configuredHelper -ProjectId 'project-a' }
+    [IO.File]::WriteAllText($configPath, (@{project_root=$fixtureRoot} | ConvertTo-Json))
+    $configured = & $configuredHelper -ProjectId 'project-a' -RelativeFile 'input/flat-source.txt'
+    Assert-Result ($configured.Project -eq 'verified' -and $configured.Files[0].Availability -eq 'local_file') 'Configured project root failed.'
+    [IO.File]::WriteAllText($configPath, '{"project_root":null}')
+    Assert-Refused { & $configuredHelper -ProjectId 'project-a' }
+    [IO.File]::WriteAllText($configPath, '{"project_root":"relative"}')
+    Assert-Refused { & $configuredHelper -ProjectId 'project-a' }
+
     $result = & $helper -ProjectPath $fixtureRoot -ProjectId 'project-a'
     Assert-Result ($result.Project -eq 'verified' -and @($result.Files).Count -eq 0) 'Marker-only check failed.'
     Assert-Result ($result.SyncStatus -eq 'not_checked') 'Local metadata claimed a provider sync check.'

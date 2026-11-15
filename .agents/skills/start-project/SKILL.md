@@ -91,3 +91,11 @@ source-template maintenance checkout or perform cleanup before setup succeeds.
 Do not recreate the repository, configure a remote, create concrete Decision
 Records in a regular source template or perform protected Git actions unless
 the specific action is separately authorized.
+
+## Completed initialization provenance
+
+Only after all required setup/readiness gates succeed in a derived project,
+move PROJECT_SETUP.md to provenance/PROJECT_SETUP.md, add a historical-status
+notice and repair local references. Keep domain setup guides with ongoing work
+at their active locations. Preserve exact lineage and source evidence; do not
+delete it. This does not move source-template setup or bypass pending gates.

@@ -6,6 +6,26 @@ sync files or prove remote convergence. Use `manage-external-storage` deliberate
 for setup, connecting a host or diagnosing selected files. Routine use of an
 already approved mapping does not require that skill or repeat setup.
 
+## One ordinary project root
+
+Copy storage.local.example.json to ignored storage.local.json and set project_root
+once to the absolute ordinary synchronized project directory. Derive input/,
+materials/ and deliberately selected output/ below that root. Keep existing
+sync:<project-id>/... references and verify PROJECT_ID.txt before use. Configuration
+does not grant content access, writes, provider transmission or publication.
+
+input/PATHS.local.md and materials/PATHS.local.md remain only for independent
+source locations/endpoints and legacy mappings pending deliberate migration.
+Do not maintain duplicate sync-area rows after their safe migration. A missing,
+conflicting or unavailable root stops dependent work; never discover cloud folders
+or copy source files to make configuration appear ready. Domain-specific private
+metadata pointers, conversation roots and protected worker state remain separate.
+
+The existing Test-ExternalStorage.ps1 accepts an explicit ProjectPath, or reads
+the configured root when that argument is omitted. It validates only the marker
+and exact approved selections. Hashing requires content access; no hydration,
+provider API or broad inventory is performed.
+
 ## Simple external layout
 
 ```text
@@ -59,9 +79,9 @@ remain in their established repository locations. Do not synchronize `temp/`; ke
 only designated intermediates are disposable. Cloud synchronization is not Git
 history, backup or publication.
 
-Versioned catalogs contain only safe logical references. Ignored
-`input/PATHS.local.md` and `materials/PATHS.local.md` map logical roots to this
-host's exact directories, copied from their tracked examples when needed.
+Versioned catalogs contain only safe logical references. Ignored storage.local.json maps the ordinary project root once. Separate
+input/materials PATHS.local.md files describe independent sources or explicit
+legacy mappings pending migration.
 Never version concrete device paths, provider secrets or private share tokens.
 Keep sensitive metadata in approved ignored storage. Record selected scope,
 provider/write authority, conflict handling and backup responsibility in existing

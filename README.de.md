@@ -144,7 +144,7 @@ Fortsetzung nach unterbrochenem Setup.
 
 ## Skills für die Zusammenarbeit
 
-Skills sind abgegrenzte Arbeitsabläufe in [`.agents/skills/`](.agents/skills/).
+Skills sind abgegrenzte Arbeitsabläufe in [`.agents/skills/`](.agents/skills).
 Sie führen den Agenten durch eine bestimmte Aufgabe und laden dafür die
 passenden Repository-Leitlinien. Rufe einen Skill im Chat mit `$skill-name`
 auf, zum Beispiel `$review-project`. Die verlinkten Skill-Dateien beschreiben
@@ -337,7 +337,7 @@ Decision Records bewahren, warum folgenreiche Entscheidungen getroffen wurden. W
 - **ADR — Architecture Decision Record:** technische Architektur, Tooling, Formate, Automatisierung oder eine andere dauerhafte technische Struktur in einem abgeleiteten Projekt.
 - **DDR — Documentation Decision Record:** Dokumentationsstruktur, Terminologie, zielgruppenorientiertes Material, Veröffentlichungsregeln oder Dokumentations-QA.
 
-Das generische Template verwendet standardmäßig PDRs und erklärt das Modell in [DECISIONS.md](DECISIONS.md). Verwende [decisions/](decisions/) nur für Entscheidungen, deren Begründung für zukünftige Mitwirkende relevant bleibt; kleine Routineentscheidungen benötigen keinen Record.
+Das generische Template verwendet standardmäßig PDRs und erklärt das Modell in [DECISIONS.md](DECISIONS.md). Verwende [decisions/](decisions) nur für Entscheidungen, deren Begründung für zukünftige Mitwirkende relevant bleibt; kleine Routineentscheidungen benötigen keinen Record.
 
 ## Repository-Struktur
 
