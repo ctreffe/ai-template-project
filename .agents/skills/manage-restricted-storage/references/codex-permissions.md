@@ -17,6 +17,16 @@ storage. When a change could prevent startup or tool access, establish a
 bounded independent rollback before editing. It restores only the owned change
 and stops on unexpected concurrent edits.
 
+## Validate the candidate before saving
+
+Use the configuration owner's
+[validation procedure](../../../../CODEX_CONFIGURATION.md#validate-before-saving)
+for the complete candidate, effective default, legacy/layer conflicts and safe
+client-load check. Preserve a valid approved default. With a first named profile
+and no effective default, establish the intended baseline explicitly before
+saving; unresolved intent or loading leaves setup pending. Do not silently
+select the restricted profile. Retain separate activation and usability gates.
+
 ## Prepare the project profile
 
 Use the full repository slug followed by `-restricted`. Extend the approved
@@ -31,7 +41,13 @@ approved network rules on existing profiles. Transmission and access require
 their own authority. Preserve the current default unless a change to it is
 approved. This example shows the profile definition to adapt.
 
+The example assumes the approved existing default is `:workspace`. Keep a
+different valid default instead; these root keys precede every table.
+
 ```toml
+# Preserve this baseline only when it is the approved default.
+default_permissions = ":workspace"
+
 [permissions.example-repository-restricted]
 extends = ":workspace"
 

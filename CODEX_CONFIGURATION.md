@@ -94,6 +94,42 @@ confirm the actual selected profile after activation. Command-network access,
 domain restrictions and other tool surfaces have different enforcement scopes.
 [Permissions](https://learn.chatgpt.com/docs/permissions)
 
+## Validate before saving
+
+When adding or changing named permission profiles, establish the effective
+top-level `default_permissions` before saving. Preserve an existing valid,
+approved default, including one supplied by an applicable higher layer. If the
+first named profile has no effective default, explicitly retain the intended
+approved baseline (for example `:workspace` only when that is the agreed baseline),
+or select the new profile only with authority for that default change. Unknown
+intent leaves the change pending; never guess a broader protection level.
+
+Check that the selected default exists, its inheritance resolves without cycles
+or unsupported parents, and approved denies, roots and networking remain intact.
+Check applicable managed restrictions and effective legacy `sandbox_mode`,
+`sandbox_workspace_write`, CLI `--sandbox` or selected config-profile overrides.
+Do not remove conflicting settings or inspect private layers automatically.
+Resolve conflicts from approved metadata before claiming the intended profile.
+
+After parsing the complete candidate, verify actual configuration loading with
+the intended installed client/version before replacing the target. Use only a
+reviewed non-interactive loader/diagnostic that performs no model request,
+hooks, MCP startup, authentication or network work. With an installed CLI whose
+behavior is established, `codex features list` can exercise loading in a disposable
+directory with isolated empty user/config homes and the full candidate placed
+in its test configuration. Review relative paths and authorized layer metadata;
+an isolated CLI result covers only the reproduced layers and CLI version.
+Do not launch ordinary client startup, import secret/global stores, grant trust
+or copy protected bindings to make this check possible. Use operator-run closed
+evidence for protected values. If no safe representative loader is available,
+record NOT_TESTED and keep configuration readiness pending.
+
+Record syntax, client-load result/version/layers, saved bytes, active Desktop
+scope and workflow usability separately. Revalidate a reconciled candidate and
+the resulting saved configuration; reuse the unchanged candidate's load evidence
+when saved bytes and relevant context match. A loader PASS does not establish
+Desktop activation, effective protection, reviewer behavior or Git capability.
+
 ## Prepare, apply and recover
 
 1. Establish the repository, exact config path, client/device and selected keys.
@@ -108,8 +144,9 @@ domain restrictions and other tool surfaces have different enforcement scopes.
 3. Prepare a minimal candidate preserving comments, unrelated keys and tables.
    Parse the complete candidate with an existing TOML-capable tool; check selected
    keys against current documentation/client support, managed constraints and
-   effective-layer evidence. A parse pass proves syntax only. Avoid running a
-   client just to parse a file if startup could launch hooks, MCP or network work.
+   effective-layer evidence. Follow [Validate before saving](#validate-before-saving)
+   for default selection and safe client-load evidence. A parse pass proves
+   syntax only; unsafe or unavailable loading leaves readiness pending.
 4. Review the exact delta and recovery plan. Reuse applicable action authority;
    ask only for missing authority after the change is concrete. For changes that
    could lose startup/tool access, establish the existing bounded independent

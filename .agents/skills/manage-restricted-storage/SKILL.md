@@ -86,8 +86,11 @@ separately approved invented-only testing.
 
 During selected profile setup, follow the
 [usability procedure](references/profile-usability.md) for required project
-operations and any bounded adapter. Keep protection and usability evidence
-separate. Reuse current evidence; do not add checks to ordinary task entry.
+operations and any bounded adapter. Required Git includes local read, staging,
+commit, authenticated remote read, fetch and actual push for normal ongoing
+work; only deliberate read-only scope or explicit maintainer exclusions narrow
+that gate. Missing authority or authentication stays pending. Keep protection
+and usability evidence separate; reuse current evidence, with no task-entry checks.
 
 ## Standard profile during initialization
 

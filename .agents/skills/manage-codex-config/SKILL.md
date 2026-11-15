@@ -27,9 +27,13 @@ source checkout, inspect another project or configure user/admin settings.
    Do not call back into the caller, overwrite its original backup or apply a
    competing config. Leave optional tuning deferred and no-op files untouched.
 4. Prepare the exact candidate and shared recovery checkpoint. Parse the complete
-   TOML, review key placement/support and effective-layer conflicts, and preserve
-   comments and unrelated settings. Retain the original bytes/absence and expected
-   candidate. Establish independent recovery before changes that could prevent
+   TOML, preserve comments/unrelated settings and follow
+   [validation before saving](../../../CODEX_CONFIGURATION.md#validate-before-saving):
+   preserve or establish the approved effective default_permissions, resolve
+   key/layer/legacy conflicts and obtain safe actual-client load evidence.
+   A syntax pass alone is insufficient; unresolved intent/loading stays pending.
+   Retain original bytes/absence and expected candidate. Establish independent
+   recovery before changes that could prevent
    startup/tool access, retaining stronger local protection requirements.
 5. Apply only within existing action authority, with narrow platform approval when
    required for `.codex` writes. Recompare the current target with the prepared

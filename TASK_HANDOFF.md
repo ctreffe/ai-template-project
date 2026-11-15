@@ -1,37 +1,41 @@
 # Task handoff
 
-Status: reviewed source baseline v0.8.0
-Date: 2026-11-08
+Status: completed (configuration loading and Git setup-readiness source contract)
+Date: 2026-11-15
 
 ## Outcome
 
-start-project now routes interview and four-file README details through local
-PROJECT_SETUP.md and profile mechanics through manage-restricted-storage.
-Setup/resume, six-question, recovery/usability and history-cleanup gates remain.
-PROJECT_SETUP.md and CHANGELOG.md reflect the selected simplification.
+CODEX_CONFIGURATION.md and manage-codex-config now require an approved effective
+permission-profile default and safe actual-client load evidence before saving.
+The profile procedure preserves existing defaults and supplies a complete example.
+GIT_TRANSPORT.md owns setup readiness for local read, exact staging, commit,
+authenticated remote read, fetch and actual push. Initialization/setup and storage
+usability route there; only deliberate read-only scope or explicit maintainer
+exclusions narrow the gate. Missing authority or evidence remains pending.
 
-The selected source milestone synchronizes VERSION, CHANGELOG.md and applicable
-static README badges. Earlier feature commits remain distinct; this coherent
-closure includes the reviewed final cleanup and acceptance metadata.
+Governance TVDR-0089 owns this source-development decision and its coordinated
+evidence. Existing local domain, access, recovery and credential rules remain.
+No active configuration, runtime, credentials or derived project was changed.
 
 ## Evidence and limits
 
-All 19 local skills passed the owning Test-CodexSkill.ps1 wrapper with the
-existing managed Python, PyYAML 6.0.3 and process-only UTF-8 mode. Source review
-covered changed contracts, local ownership and domain safeguards. Governance
-ran the applicable comprehensive family gate components separately, including
-source topology, policy, Markdown and metadata checks. Release-tag, clean-tree
-and live upstream outcomes must be verified from Git after authorized execution.
+All three changed skills passed this repository's Test-CodexSkill.ps1 with the
+existing Governance managed checker interpreter selected explicitly. No member
+environment was created or activated. The profile example parsed and loaded in
+an isolated invented-only CLI 0.160.0 check. Source review covered setup/default/
+load routing, per-operation readiness, explicit exclusions and domain preservation.
+Selected local Markdown checks are recorded with the coordinated Governance
+implementation evidence. These are source/CLI results, not independent live-agent,
+Desktop protection, actual project initialization or Git acceptance evidence.
 
-No executable project or domain render is part of this generic source template.
+Source implementation and its checks performed no Git mutation, live
+config/host change, installation or publication. Later authorized versioning
+is a separate workflow.
+Domain runtime/render/data/worker checks are not applicable. Full suites,
+whitespace, release and milestone gates were not run at this bounded source stage.
 
-No installation, live configuration/profile activation, provider use or derived
-project adoption occurred. Existing helper/experiment evidence remains historical;
-source validation establishes no new deployment qualification.
+## Continuation
 
-## Continuation and versioning
-
-No selected source implementation remains. Existing captured ideas and
-project-owned placeholders are preserved. Reconstruct branch, commit, tag and
-upstream status from live Git; this handoff records content acceptance and is
-not a substitute for the exact repository/action-specific Git authority.
+No selected source implementation work remains. Existing projects adopt changes
+only when selected and retain their own activation and operation-specific
+qualification. Future tasks refresh live state; versioning is separately selected.

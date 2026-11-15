@@ -52,6 +52,10 @@ template, not a source-template maintenance checkout or an active project.
    through manage-codex-config, combining necessary settings and the profile delta
    in one pending transaction. Preserve preferences and defer optional tuning;
    report saved/active/pending evidence before cleanup.
+   Apply [Git setup readiness](../../../GIT_TRANSPORT.md#setup-readiness) to
+   normal ongoing work: local read/staging/commit and authenticated remote
+   read/fetch/actual push. Missing authority or credentials stays pending;
+   only deliberate read-only scope or explicit exclusions narrow the gate.
 6. For documented closed folders, follow the
    [standard initialization profile](../manage-restricted-storage/SKILL.md#standard-profile-during-initialization)
    before cleanup. Resolve folders from the template layout or tracked markers;

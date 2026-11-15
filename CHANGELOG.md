@@ -6,6 +6,11 @@ This project follows Semantic Versioning.
 
 ## [Unreleased]
 
+- Require an approved effective permission-profile default and safe client-load
+  validation before saving configuration. Keep required local and authenticated
+  remote Git operations in setup acceptance, with explicit exclusions and
+  per-operation evidence; preserve domain and action authority.
+
 ## [0.8.0] - 2026-11-08
 
 - Simplify start-project by routing interview, four-file README and profile

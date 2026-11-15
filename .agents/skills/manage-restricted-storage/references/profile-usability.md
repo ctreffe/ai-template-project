@@ -6,12 +6,18 @@ route. Ordinary task entry does not run this procedure.
 
 ## Select and qualify the needed operations
 
-Derive a short capability list from the project's actual work: authenticated
-Git read/fetch/push when used, selected runtimes, required rendering formats and
-local previews. Use invented inputs and existing tools. Respect the local domain
-contract. Record PASS, FAIL, NOT_TESTED or NOT_APPLICABLE for each operation, its
-context and evidence. Preserve failed attempts. Ask only for missing authority;
-the setup invocation does not itself authorize credentials or remote writes.
+Derive a short capability list from the project's intended ongoing work, not
+only its first deliverable. For a Git-backed working project, apply
+[Git setup readiness](../../../../GIT_TRANSPORT.md#setup-readiness): local read,
+exact staging, commit, authenticated remote read, fetch and actual push are
+required unless the maintainer explicitly excludes an operation or selects
+a deliberately read-only project. Scaffolding/document work is no exclusion.
+Add selected runtimes, rendering formats, previews and other domain needs.
+Use approved non-sensitive inputs and existing tools; respect local access
+and credential rules. Record PASS, FAIL, NOT_TESTED or NOT_APPLICABLE with
+required/excluded status, reason, context and evidence for each operation.
+Missing authority/authentication leaves required work pending. Preserve failed
+attempts. Setup does not itself authorize Git mutations, credentials or writes.
 
 Qualify the original operation in the intended Desktop chat. A successful shell,
 network request, SSH handshake or read does not establish fetch/push. An external

@@ -116,6 +116,15 @@ That procedure owns profile preparation, restart, recovery and required workflow
 qualification. Reuse setup answers and the pending checkpoint; initialization
 and cleanup remain pending until its active-scope and usability gates are met.
 
+Required Git readiness is independent of the first deliverable. Apply
+[Git setup readiness](GIT_TRANSPORT.md#setup-readiness) to the intended ongoing
+workflow: local read, exact staging, commit, authenticated remote read, fetch
+and actual push. Only deliberately read-only scope or explicit maintainer
+exclusions narrow that list. Missing authority, credentials or current evidence
+leaves setup and cleanup pending; profile loading/activation cannot substitute
+for these per-operation results. Preserve project-specific hooks, signing and
+credential/access boundaries. No Git mutation is authorized by initialization.
+
 `$start-project` begins with no more than six fundamental maintainer
 questions. Each numbered item is one coherent decision, not a container for a
 hidden questionnaire:
